@@ -20,5 +20,5 @@
 0DC0    // 14'b001_101_110_00000	ADD		r5, r6;		y1` = x1` + y1`
 2DEC    // 14'b101_101_111_01100	ADDI	r5, -14;	y2 = y1` - 20. // y2 is now in r5
 3260	// 14'b110_010_011_00000	COPY	r2, r3; 	Copy x2 to LED output
-2200    // 14'b100_010_000_00000	WLD1	r2, r5;		Wait for SW8 to become 1 and Copy y2 to LED output.
+22A0    // 14'b100_010_101_00000	WLD1	r2, r5;		Wait for SW8 to become 1 and Copy y2 to LED output.
 0200    // 14'b000_010_000_00000 	WLD0	r2, r0;		Wait for SW8 to become 0
