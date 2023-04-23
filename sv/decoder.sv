@@ -48,7 +48,7 @@ begin
 			w = 1'b1; // write result to dest register
 			imm = 1'b1; // set ctrl signal for imm operand MUX
 		end
-		`COPY: w = w = 1'b1;
+		`COPY: w = 1'b1;
 		`WLD0: 
 		begin
 			pc_inc = ~handshake_switch;
