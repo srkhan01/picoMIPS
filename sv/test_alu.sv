@@ -31,8 +31,18 @@ begin
 	alu_func = `RB;
 	if(result != 8'b00000011) 
 		$error("Result '%d' is incorrect. Should be 3", result);
+	
+	// COPY	
+	#10;
+	alu_a = 8'b00000000; 
+	alu_b = 8'b00001001; 
+	alu_func = `RB_ALT;
+	#5 
+	if(result != 8'b00001001) 
+		$error("Result '%d' is incorrect. Should be 9", result);
+		
 	// Integer Addition
-	#2;
+	#10;
 	alu_a = 3; 
 	alu_b = 16; 
 	alu_func = `RADD;
@@ -43,8 +53,8 @@ begin
 	// Integer Subtraction
 	#10;
 	alu_a = 8; 
-	alu_b = 20; 
-	alu_func = `RSUB;
+	alu_b = -20; 
+	alu_func = `RADD;
 	#5 
 	if(result != 8'b11110100) 
 		$error("Result '%d' is incorrect. Should be -12", result);

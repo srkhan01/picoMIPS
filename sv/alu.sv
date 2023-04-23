@@ -28,9 +28,10 @@ assign multiplyResult = a * b;
 logic[n-1:0] ar,b1; // temp signals
 always_comb
 begin
-   if(func==`RSUB)
+   /*if(func==`RSUB)
       b1 = ~b + 1'b1; // 2's complement subtrahend
-   else b1 = b;
+   else */
+   b1 = b;
    ar = a+b1; // n-bit adder
 end // always_comb
 
@@ -41,12 +42,13 @@ always_comb
 begin
   unique case(func)
   	`RB   : result = b;
+	`RB_ALT   : result = b;
     `RADD  : begin
 	   result = ar; // arithmetic addition
 	 end
-    `RSUB  : begin
+    /*`RSUB  : begin
 	   result = ar; // arithmetic subtraction
-	 end   
+	 end   */
 	`RMULT  : result = multiplyResult[14:7]; // arithmetic multiplication
 	default: result = a;
    endcase
