@@ -43,7 +43,7 @@ initial begin
   #10 opcode = `ADD;
   #10 opcode = `MULT;
   #10 opcode = `ADDI;
-  #10 opcode = `SUBI;
+  #10 opcode = `COPY;
   #10 opcode = `MULTI;
   #10 opcode = `WLD0;
   #5 sw8 = 0;
