@@ -1,0 +1,15 @@
+{H:/elec6234 cw/code - working folder/test_decoder.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/test_decoder.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module test_decoder
+
+Top level modules:
+	test_decoder
+
+} {} {}} {H:/elec6234 cw/code - working folder/decoder.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/decoder.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}}

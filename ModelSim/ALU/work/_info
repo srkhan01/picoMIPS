@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/MentorGraphics/modeltech64_2020.1/examples
+T_opt
+!s110 1682086603
+V]g@3=3O=3>G[Zd]kTP1]42
+04 7 4 work alutest fast 0
+=1-0050569d6eeb-64429aca-1f4-4804
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+valu
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1682086591
+!i10b 1
+!s100 >mlaO25EOP;8RjQJjm5Oc3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@cNYR54LWK;A[=UhReTlA0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z5 dH:/elec6234 cw/ModelSim
+w1682085701
+Z6 8H:/elec6234 cw/code - working folder/alu.sv
+Z7 FH:/elec6234 cw/code - working folder/alu.sv
+!i122 19
+L0 10 69
+Z8 OL;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1682086590.000000
+Z9 !s107 H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alu.sv|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alu.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+valutest
+R1
+R2
+!i10b 1
+!s100 <]:=9FSdiLAbWV?]T1LaC3
+R3
+I`=;aOaVbg<chJ]MR5m@;B1
+R4
+S1
+R5
+w1682086572
+8H:/elec6234 cw/code - working folder/alutest.sv
+FH:/elec6234 cw/code - working folder/alutest.sv
+!i122 20
+L0 11 60
+R8
+r1
+!s85 0
+31
+!s108 1682086591.000000
+!s107 H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alutest.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alutest.sv|
+!i113 0
+R11
+R0
+vsigned_mult
+R1
+!s110 1682085133
+!i10b 1
+!s100 ?1D219JOiT4aKAnFclbk81
+R3
+Im]m=X]JaJaOchJQ7<CmmS3
+R4
+S1
+R5
+w1682084999
+R6
+R7
+!i122 13
+L0 10 8
+R8
+r1
+!s85 0
+31
+!s108 1682085133.000000
+R9
+R10
+!i113 0
+R11
+R0

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/MentorGraphics/modeltech64_2020.1/examples
+T_opt
+!s110 1682174492
+V[S5GGKNa]6W1LhlnF_j112
+04 12 4 work test_decoder fast 0
+=1-0050569d40c7-6443f21b-11b-91c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+vdecoder
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1682174480
+!i10b 1
+!s100 bRJRC?6ECgd5JFMKON8G[2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<KVQ5CiBQXn?U]RZYbNzZ3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z5 dH:/elec6234 cw/ModelSim/Decoder
+w1682172735
+8H:/elec6234 cw/code - working folder/decoder.sv
+FH:/elec6234 cw/code - working folder/decoder.sv
+!i122 4
+L0 13 60
+Z6 OL;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1682174479.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/decoder.sv|
+!i113 0
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vtest_decoder
+R1
+R2
+!i10b 1
+!s100 [cCPSQfJFNf7RQB[BVM881
+R3
+IFl;e]EPKaW8i^<@2Bd3RQ1
+R4
+S1
+R5
+w1682162134
+8H:/elec6234 cw/code - working folder/test_decoder.sv
+FH:/elec6234 cw/code - working folder/test_decoder.sv
+!i122 5
+L0 13 40
+R6
+r1
+!s85 0
+31
+!s108 1682174480.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!i113 0
+R7
+R0

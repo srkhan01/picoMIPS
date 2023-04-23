@@ -1,0 +1,15 @@
+{H:/elec6234 cw/code - working folder/test_program_memory.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/test_program_memory.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module test_program_memory
+
+Top level modules:
+	test_program_memory
+
+} {} {}} {H:/elec6234 cw/code - working folder/program_memory.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/program_memory.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module program_memory
+
+Top level modules:
+	program_memory
+
+} {} {}}

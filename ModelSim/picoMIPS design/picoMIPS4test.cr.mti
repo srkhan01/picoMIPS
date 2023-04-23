@@ -1,0 +1,94 @@
+{H:/elec6234 cw/code - working folder/global_parameters.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/global_parameters.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+
+} {} {}} {H:/elec6234 cw/code - working folder/decoder.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/decoder.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} {H:/elec6234 cw/code - working folder/test_registers.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/test_registers.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module test_registers
+
+Top level modules:
+	test_registers
+
+} {} {}} {H:/elec6234 cw/code - working folder/alucodes.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/alucodes.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+
+} {} {}} {H:/elec6234 cw/code - working folder/program_memory.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/program_memory.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module program_memory
+
+Top level modules:
+	program_memory
+
+} {} {}} {H:/elec6234 cw/code - working folder/picoMIPS4test.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/picoMIPS4test.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module picoMIPS4test
+
+Top level modules:
+	picoMIPS4test
+
+} {} {}} {H:/elec6234 cw/code - working folder/counter.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/counter.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {H:/elec6234 cw/code - working folder/alu.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/alu.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {H:/elec6234 cw/code - working folder/test_picoMIPS.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/test_picoMIPS.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module test_picoMIPS
+
+Top level modules:
+	test_picoMIPS
+
+} {} {}} {H:/elec6234 cw/code - working folder/picoMIPS.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/picoMIPS.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module picoMIPS
+
+Top level modules:
+	picoMIPS
+
+} {} {}} {H:/elec6234 cw/code - working folder/test_decoder.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/test_decoder.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module test_decoder
+
+Top level modules:
+	test_decoder
+
+} {} {}} {H:/elec6234 cw/code - working folder/opcodes.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/opcodes.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+
+} {} {}} {H:/elec6234 cw/code - working folder/program_counter.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/program_counter.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module program_counter
+
+Top level modules:
+	program_counter
+
+} {} {}} {H:/elec6234 cw/code - working folder/registers.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/registers.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} {H:/elec6234 cw/code - working folder/test_alu.sv} {1 {vlog -work work -vopt -sv -stats=none {H:/elec6234 cw/code - working folder/test_alu.sv}
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module test_alu
+
+Top level modules:
+	test_alu
+
+} {} {}}

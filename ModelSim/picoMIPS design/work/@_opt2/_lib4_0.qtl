@@ -1,0 +1,1748 @@
+m255
+K4
+z2
+!s8c locked
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+dC:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech
+XMTI_CSTDLIB
+Z0 DXx4 work 3 STD 0 22 C5P`]aF5g@jYQiTVH86>n3
+Z1 !s110 1580240014
+!i10b 1
+!s100 icQCI_Oj3>0h:SB`A4JWn0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2B]QM]?FN1P9NZGF>TCVV0
+V2B]QM]?FN1P9NZGF>TCVV0
+S1
+!s86 1
+Z3 d$MODEL_TECH/..
+Z4 w1580239888
+Z5 8verilog_src/dpi_cpack/dpi_cpackages.sv
+Z6 Fverilog_src/dpi_cpack/dpi_cpackages.sv
+!i122 3
+Z7 L0 17 0
+Z8 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1580240014.000000
+Z10 !s107 verilog_src/dpi_cpack/dpi_cpackages.sv|
+Z11 !s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z12 o-suppress 12110 -debuglib -u -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+n@m@t@i_@c@s@t@d@l@i@b
+Xmti_cstdlib
+Z14 DXx4 work 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 OW0mb1CF=jV3nlik?oMRV0
+R2
+I7YQT9N??5=d:Wzg^n=:fZ2
+V7YQT9N??5=d:Wzg^n=:fZ2
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+Z15 !s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z16 o-suppress 12110 -debuglib -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R13
+XMTI_CSTRING
+R0
+R1
+!i10b 1
+!s100 kDlQo?nkDBVoK<AS]3QjD1
+R2
+ILecfHDQ26AMY35bfFmmT_3
+VLecfHDQ26AMY35bfFmmT_3
+S1
+!s86 1
+R3
+R4
+R5
+R6
+!i122 3
+Z17 L0 28 0
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@t@i_@c@s@t@r@i@n@g
+Xmti_cstring
+R14
+R1
+!i10b 1
+!s100 KaVS423PbHN8BiZUD@GGL2
+R2
+I]IJ]dNQG`4CJEj@oIV4_Y1
+V]IJ]dNQG`4CJEj@oIV4_Y1
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R15
+!i113 1
+R16
+R13
+XMTI_DEBUG
+R0
+R1
+!i10b 1
+!s100 TB]^ezUTiRTalgCgbO]<l3
+R2
+ILT0iZ><B;KMlBmS_S<>bW2
+VLT0iZ><B;KMlBmS_S<>bW2
+S1
+!s86 1
+R3
+R4
+R5
+R6
+!i122 3
+Z18 L0 47 0
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@t@i_@d@e@b@u@g
+Xmti_debug
+R14
+R1
+!i10b 1
+!s100 ^b=Bi@Q2JjgYiFl;:40Sc1
+R2
+IMhYD3DEHh;3nkFMn>d<UC3
+VMhYD3DEHh;3nkFMn>d<UC3
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R18
+R8
+r1
+!s85 0
+31
+R9
+R10
+R15
+!i113 1
+R16
+R13
+XMTI_FCOVER
+R0
+Z19 !s110 1580240015
+!i10b 1
+!s100 fK:8]FFZh3P`7Fl@:5aC70
+R2
+I0OQnzn:_bU33b7^0l3Zfk1
+V0OQnzn:_bU33b7^0l3Zfk1
+S1
+!s86 1
+R3
+R4
+Z20 8verilog_src/mti_sv/fcover.sv
+Z21 Fverilog_src/mti_sv/fcover.sv
+!i122 7
+Z22 L0 5 0
+R8
+r1
+!s85 0
+31
+Z23 !s108 1580240015.000000
+Z24 !s107 verilog_src/mti_sv/fcover.sv|
+!s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R12
+R13
+n@m@t@i_@f@c@o@v@e@r
+Xmti_fcover
+R14
+R19
+!i10b 1
+!s100 efa[11Ul`>0g6:zg_Xi1E0
+R2
+IIh9jDXlg9:E34a:]f_gAg1
+VIh9jDXlg9:E34a:]f_gAg1
+S1
+R3
+R4
+R20
+R21
+!i122 6
+R22
+R8
+r1
+!s85 0
+31
+R23
+R24
+!s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R16
+R13
+XMTI_FLI
+R0
+R1
+!i10b 1
+!s100 n_2PQUlSo15MDNG48]QWl2
+R2
+I>zPK83f9c>_UScHVSd;CN2
+V>zPK83f9c>_UScHVSd;CN2
+S1
+!s86 1
+R3
+R4
+R5
+R6
+!i122 3
+Z25 L0 4 0
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@t@i_@f@l@i
+Xmti_fli
+R14
+R1
+!i10b 1
+!s100 kSbeP86I0@SfQi;i57@W00
+R2
+IB85Hkm<ANkM<`JN1dFJde3
+VB85Hkm<ANkM<`JN1dFJde3
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R25
+R8
+r1
+!s85 0
+31
+R9
+R10
+R15
+!i113 1
+R16
+R13
+XMTI_SCDPI
+R0
+R19
+!i10b 1
+!s100 L3B:Y?;k0V0PDi<?0ec=93
+R2
+I5fToGUlJlG5K2mk3MRG<21
+V5fToGUlJlG5K2mk3MRG<21
+S1
+!s86 1
+R3
+R4
+Z26 8verilog_src/dpi_cpack/scdpi.sv
+Z27 Fverilog_src/dpi_cpack/scdpi.sv
+!i122 5
+Z28 L0 1 0
+R8
+r1
+!s85 0
+31
+R9
+Z29 !s107 verilog_src/dpi_cpack/scdpi.sv|
+!s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R12
+R13
+n@m@t@i_@s@c@d@p@i
+Xmti_scdpi
+R14
+R1
+!i10b 1
+!s100 Y]PX:=_5`zJ63fMJVe^_M3
+R2
+IOjFKWz`5YeLO>M8M6l4Q:3
+VOjFKWz`5YeLO>M8M6l4Q:3
+S1
+R3
+R4
+R26
+R27
+!i122 4
+R28
+R8
+r1
+!s85 0
+31
+R9
+R29
+!s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R16
+R13
+XSTD
+R1
+!i10b 1
+!s100 EKK>A5XKXXLOz9iKzP2G81
+R2
+IC5P`]aF5g@jYQiTVH86>n3
+VC5P`]aF5g@jYQiTVH86>n3
+S1
+!s86 1
+R3
+R4
+Z30 8verilog_src/std/std.sv
+Z31 Fverilog_src/std/std.sv
+!i122 1
+Z32 L0 6 0
+R8
+r1
+!s85 0
+31
+R9
+Z33 !s107 verilog_src/std/std.sv|
+!s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R12
+R13
+n@s@t@d
+Xstd
+R1
+!i10b 1
+!s100 ]i[_JOYIoOMc`AEjL2EkC0
+R2
+I9oUSJO;AeEaW`l:M@^WG92
+V9oUSJO;AeEaW`l:M@^WG92
+S1
+R3
+R4
+R30
+R31
+!i122 0
+R32
+R8
+r1
+!s85 0
+31
+R9
+R33
+!s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R16
+R13
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/elec6234 cw/ModelSim/Program Memory
+T_opt
+!s110 1682192754
+V6G7^db:Cbccj9kI=MMW=O1
+04 12 4 work test_decoder fast 0
+=1-0050569d40c7-64443971-313-5ee8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.1;71
+R0
+T_opt1
+!s110 1682200706
+VO7NAbbMRbJOz<1^T5F8IG1
+04 13 4 work test_picoMIPS fast 0
+=1-0050569d40c7-64445880-a2-3cb8
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1682201374
+VkhzgD5FkK<I1o_S?7M9[W1
+04 14 4 work test_registers fast 0
+=1-0050569d40c7-64445b1d-2c9-5740
+R1
+R2
+n@_opt2
+R3
+valu
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1682201353
+!i10b 1
+!s100 =<l_9NY9Q]:aNa>2868S^3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`2R`AhX]^dh[5coBOn30d2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z8 dH:/elec6234 cw/ModelSim/picoMIPS design
+w1682194249
+8H:/elec6234 cw/code - working folder/alu.sv
+FH:/elec6234 cw/code - working folder/alu.sv
+!i122 242
+L0 11 44
+Z9 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1682201353.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alu.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcounter
+R4
+Z12 !s110 1682201354
+!i10b 1
+!s100 ?_0Efm<b`=O<MG?b_`i_M1
+R6
+Ia`^PmA3B>ezPo8A]9LKj_0
+R7
+S1
+R8
+w1677496109
+8H:/elec6234 cw/code - working folder/counter.sv
+FH:/elec6234 cw/code - working folder/counter.sv
+!i122 243
+L0 2 11
+R9
+r1
+!s85 0
+31
+R10
+!s107 H:/elec6234 cw/code - working folder/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/counter.sv|
+!i113 0
+R11
+R2
+vdecoder
+R4
+R12
+!i10b 1
+!s100 ]h_=nB9iPS8KIi^SI@n1o0
+R6
+I]KQDL2D:@;8aKGEVg3ghf1
+R7
+S1
+R8
+w1682179829
+8H:/elec6234 cw/code - working folder/decoder.sv
+FH:/elec6234 cw/code - working folder/decoder.sv
+!i122 244
+L0 13 61
+R9
+r1
+!s85 0
+31
+Z13 !s108 1682201354.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/decoder.sv|
+!i113 0
+R11
+R2
+vpicoMIPS
+R4
+Z14 !s110 1682201355
+!i10b 1
+!s100 <9jmgQWje:]mK:lHW``]a3
+R6
+IiGPGf[GXihzWL1nlDCnmA3
+R7
+S1
+R8
+w1682199785
+8H:/elec6234 cw/code - working folder/picoMIPS.sv
+FH:/elec6234 cw/code - working folder/picoMIPS.sv
+!i122 245
+L0 11 91
+R9
+r1
+!s85 0
+31
+R13
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s
+vpicoMIPS4test
+R4
+R5
+!i10b 1
+!s100 SiHO_gz^^E=^`2H86U;XV1
+R6
+IKMFoX<[SNe^8m?<9@^J:]0
+R7
+S1
+R8
+w1682179078
+8H:/elec6234 cw/code - working folder/picoMIPS4test.sv
+FH:/elec6234 cw/code - working folder/picoMIPS4test.sv
+!i122 241
+L0 2 16
+R9
+r1
+!s85 0
+31
+!s108 1682201352.000000
+!s107 H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s4test
+vprogram_counter
+R4
+R14
+!i10b 1
+!s100 MHnPC[ZmXfK`B6ca352T10
+R6
+I5Un0e_bYi>BVH:o:eO:z>2
+R7
+S1
+R8
+w1682196784
+8H:/elec6234 cw/code - working folder/program_counter.sv
+FH:/elec6234 cw/code - working folder/program_counter.sv
+!i122 246
+L0 9 24
+R9
+r1
+!s85 0
+31
+Z15 !s108 1682201355.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_counter.sv|
+!i113 0
+R11
+R2
+vprogram_memory
+R4
+Z16 !s110 1682201356
+!i10b 1
+!s100 kWhk<EmSH08G2zGV3A8Vi1
+R6
+I>cRGFBeDCc5Z<gTnk?8b>1
+R7
+S1
+R8
+w1682179595
+8H:/elec6234 cw/code - working folder/program_memory.sv
+FH:/elec6234 cw/code - working folder/program_memory.sv
+!i122 247
+L0 8 16
+R9
+r1
+!s85 0
+31
+R15
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_memory.sv|
+!i113 0
+R11
+R2
+vregisters
+R4
+R16
+!i10b 1
+!s100 z9k@1P6@;fTfQU7NJV?UI0
+R6
+I2WfL?CelIImK<>a]]dFiL1
+R7
+S1
+R8
+w1682200768
+8H:/elec6234 cw/code - working folder/registers.sv
+FH:/elec6234 cw/code - working folder/registers.sv
+!i122 248
+L0 9 58
+R9
+r1
+!s85 0
+31
+Z17 !s108 1682201356.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/registers.sv|
+!i113 0
+R11
+R2
+vtest_alu
+R4
+Z18 !s110 1682201357
+!i10b 1
+!s100 M6Ig5LN9z6PbPABOAWXAj2
+R6
+IBX<]=R^a@BczW>>^4]Re10
+R7
+S1
+R8
+w1682193027
+8H:/elec6234 cw/code - working folder/test_alu.sv
+FH:/elec6234 cw/code - working folder/test_alu.sv
+!i122 251
+L0 12 62
+R9
+r1
+!s85 0
+31
+Z19 !s108 1682201357.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_alu.sv|
+!i113 0
+R11
+R2
+vtest_decoder
+R4
+R18
+!i10b 1
+!s100 K1U7dU27fgDf]mCTJlVge2
+R6
+IaEH68[NSSl_mZAj=hD2]92
+R7
+S1
+R8
+w1682162134
+8H:/elec6234 cw/code - working folder/test_decoder.sv
+FH:/elec6234 cw/code - working folder/test_decoder.sv
+!i122 252
+L0 13 40
+R9
+r1
+!s85 0
+31
+R19
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!i113 0
+R11
+R2
+vtest_picoMIPS
+R4
+R16
+!i10b 1
+!s100 g4=3lI:lnVmj7L1e_B_QB2
+R6
+Iikae7]1[D7lkmMdSY;X_Q2
+R7
+S1
+R8
+w1682199366
+8H:/elec6234 cw/code - working folder/test_picoMIPS.sv
+FH:/elec6234 cw/code - working folder/test_picoMIPS.sv
+!i122 249
+L0 7 51
+R9
+r1
+!s85 0
+31
+R17
+!s107 H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!i113 0
+R11
+R2
+ntest_pico@m@i@p@s
+vtest_registers
+R4
+R18
+!i10b 1
+!s100 LZSW9k6Ih0W3eGzR^fCen0
+R6
+IGRDlmFQl]C<^^BIebJm_Q1
+R7
+S1
+R8
+w1682201078
+8H:/elec6234 cw/code - working folder/test_registers.sv
+FH:/elec6234 cw/code - working folder/test_registers.sv
+!i122 250
+L0 10 66
+R9
+r1
+!s85 0
+31
+R17
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/test_registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_registers.sv|
+!i113 0
+R11
+R2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/elec6234 cw/ModelSim/Program Memory
+T_opt
+!s110 1682192754
+V6G7^db:Cbccj9kI=MMW=O1
+04 12 4 work test_decoder fast 0
+=1-0050569d40c7-64443971-313-5ee8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.1;71
+R0
+T_opt1
+!s110 1682194710
+VHbkL5QN2a3`5LdiP6>M1>1
+04 13 4 work test_picoMIPS fast 0
+=1-0050569d40c7-64444114-38f-1874
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1682195886
+V3k=0T6N;ZgG=a:9HQ0KTa3
+04 14 4 work test_registers fast 0
+=1-0050569d40c7-644445ad-1dd-7dd4
+R1
+R2
+n@_opt2
+R3
+valu
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1682194697
+!i10b 1
+!s100 =<l_9NY9Q]:aNa>2868S^3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`2R`AhX]^dh[5coBOn30d2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z8 dH:/elec6234 cw/ModelSim/picoMIPS design
+w1682194249
+8H:/elec6234 cw/code - working folder/alu.sv
+FH:/elec6234 cw/code - working folder/alu.sv
+!i122 203
+L0 11 44
+Z9 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1682194696.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alu.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcounter
+R4
+R5
+!i10b 1
+!s100 ?_0Efm<b`=O<MG?b_`i_M1
+R6
+Ia`^PmA3B>ezPo8A]9LKj_0
+R7
+S1
+R8
+w1677496109
+8H:/elec6234 cw/code - working folder/counter.sv
+FH:/elec6234 cw/code - working folder/counter.sv
+!i122 204
+L0 2 11
+R9
+r1
+!s85 0
+31
+Z12 !s108 1682194697.000000
+!s107 H:/elec6234 cw/code - working folder/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/counter.sv|
+!i113 0
+R11
+R2
+vdecoder
+R4
+!s110 1682194698
+!i10b 1
+!s100 ]h_=nB9iPS8KIi^SI@n1o0
+R6
+I]KQDL2D:@;8aKGEVg3ghf1
+R7
+S1
+R8
+w1682179829
+8H:/elec6234 cw/code - working folder/decoder.sv
+FH:/elec6234 cw/code - working folder/decoder.sv
+!i122 205
+L0 13 61
+R9
+r1
+!s85 0
+31
+R12
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/decoder.sv|
+!i113 0
+R11
+R2
+vpicoMIPS
+R4
+Z13 !s110 1682195659
+!i10b 1
+!s100 eezWVP]DKM71Vef[`nPWB1
+R6
+ID7K6Bb66z]fWi31kkL^ie1
+R7
+S1
+R8
+w1682195148
+8H:/elec6234 cw/code - working folder/picoMIPS.sv
+FH:/elec6234 cw/code - working folder/picoMIPS.sv
+!i122 214
+L0 11 83
+R9
+r1
+!s85 0
+31
+!s108 1682195658.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s
+vpicoMIPS4test
+R4
+!s110 1682194696
+!i10b 1
+!s100 SiHO_gz^^E=^`2H86U;XV1
+R6
+IKMFoX<[SNe^8m?<9@^J:]0
+R7
+S1
+R8
+w1682179078
+8H:/elec6234 cw/code - working folder/picoMIPS4test.sv
+FH:/elec6234 cw/code - working folder/picoMIPS4test.sv
+!i122 202
+L0 2 16
+R9
+r1
+!s85 0
+31
+R10
+!s107 H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s4test
+vprogram_counter
+R4
+R13
+!i10b 1
+!s100 Fk^FA^C]E:JkY@AZNRGCm1
+R6
+IbCT<Em_Na@n``YbJkGR?<2
+R7
+S1
+R8
+w1682195157
+8H:/elec6234 cw/code - working folder/program_counter.sv
+FH:/elec6234 cw/code - working folder/program_counter.sv
+!i122 215
+L0 9 27
+R9
+r1
+!s85 0
+31
+Z14 !s108 1682195659.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_counter.sv|
+!i113 0
+R11
+R2
+vprogram_memory
+R4
+!s110 1682194699
+!i10b 1
+!s100 kWhk<EmSH08G2zGV3A8Vi1
+R6
+I>cRGFBeDCc5Z<gTnk?8b>1
+R7
+S1
+R8
+w1682179595
+8H:/elec6234 cw/code - working folder/program_memory.sv
+FH:/elec6234 cw/code - working folder/program_memory.sv
+!i122 208
+L0 8 16
+R9
+r1
+!s85 0
+31
+Z15 !s108 1682194699.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_memory.sv|
+!i113 0
+R11
+R2
+vregisters
+R4
+R13
+!i10b 1
+!s100 LkIPdXggJ7dH4<SfNbmPC0
+R6
+I5?HSPGn1F:cB8@S]6lEJ53
+R7
+S1
+R8
+w1682195277
+8H:/elec6234 cw/code - working folder/registers.sv
+FH:/elec6234 cw/code - working folder/registers.sv
+!i122 216
+L0 9 46
+R9
+r1
+!s85 0
+31
+R14
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/registers.sv|
+!i113 0
+R11
+R2
+vtest_alu
+R4
+Z16 !s110 1682194701
+!i10b 1
+!s100 M6Ig5LN9z6PbPABOAWXAj2
+R6
+IBX<]=R^a@BczW>>^4]Re10
+R7
+S1
+R8
+w1682193027
+8H:/elec6234 cw/code - working folder/test_alu.sv
+FH:/elec6234 cw/code - working folder/test_alu.sv
+!i122 212
+L0 12 62
+R9
+r1
+!s85 0
+31
+!s108 1682194700.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_alu.sv|
+!i113 0
+R11
+R2
+vtest_decoder
+R4
+R16
+!i10b 1
+!s100 K1U7dU27fgDf]mCTJlVge2
+R6
+IaEH68[NSSl_mZAj=hD2]92
+R7
+S1
+R8
+w1682162134
+8H:/elec6234 cw/code - working folder/test_decoder.sv
+FH:/elec6234 cw/code - working folder/test_decoder.sv
+!i122 213
+L0 13 40
+R9
+r1
+!s85 0
+31
+!s108 1682194701.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!i113 0
+R11
+R2
+vtest_picoMIPS
+R4
+!s110 1682194700
+!i10b 1
+!s100 3VhKWQQ7iNfY7R:1EbGFk0
+R6
+IMa^4`zNb<HM<8Z4KnW>`80
+R7
+S1
+R8
+w1682194681
+8H:/elec6234 cw/code - working folder/test_picoMIPS.sv
+FH:/elec6234 cw/code - working folder/test_picoMIPS.sv
+!i122 210
+L0 7 51
+R9
+r1
+!s85 0
+31
+R15
+!s107 H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!i113 0
+R11
+R2
+ntest_pico@m@i@p@s
+vtest_registers
+R4
+!s110 1682195872
+!i10b 1
+!s100 9n=OHUFAF7dHCiHNA=2<X1
+R6
+IWEYmdDGomM=1Z<9zjbK6]1
+R7
+S1
+R8
+w1682195822
+8H:/elec6234 cw/code - working folder/test_registers.sv
+FH:/elec6234 cw/code - working folder/test_registers.sv
+!i122 217
+L0 10 66
+R9
+r1
+!s85 0
+31
+!s108 1682195871.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/test_registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_registers.sv|
+!i113 0
+R11
+R2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/elec6234 cw/ModelSim/Program Memory
+T_opt
+!s110 1682192754
+V6G7^db:Cbccj9kI=MMW=O1
+04 12 4 work test_decoder fast 0
+=1-0050569d40c7-64443971-313-5ee8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.1;71
+R0
+T_opt1
+!s110 1682194710
+VHbkL5QN2a3`5LdiP6>M1>1
+04 13 4 work test_picoMIPS fast 0
+=1-0050569d40c7-64444114-38f-1874
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1682196167
+VI8_A74CYNzcT@`@Ll24Hc3
+04 14 4 work test_registers fast 0
+=1-0050569d40c7-644446c6-11a-45e0
+R1
+R2
+n@_opt2
+R3
+valu
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1682194697
+!i10b 1
+!s100 =<l_9NY9Q]:aNa>2868S^3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`2R`AhX]^dh[5coBOn30d2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z8 dH:/elec6234 cw/ModelSim/picoMIPS design
+w1682194249
+8H:/elec6234 cw/code - working folder/alu.sv
+FH:/elec6234 cw/code - working folder/alu.sv
+!i122 203
+L0 11 44
+Z9 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1682194696.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alu.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcounter
+R4
+R5
+!i10b 1
+!s100 ?_0Efm<b`=O<MG?b_`i_M1
+R6
+Ia`^PmA3B>ezPo8A]9LKj_0
+R7
+S1
+R8
+w1677496109
+8H:/elec6234 cw/code - working folder/counter.sv
+FH:/elec6234 cw/code - working folder/counter.sv
+!i122 204
+L0 2 11
+R9
+r1
+!s85 0
+31
+Z12 !s108 1682194697.000000
+!s107 H:/elec6234 cw/code - working folder/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/counter.sv|
+!i113 0
+R11
+R2
+vdecoder
+R4
+!s110 1682194698
+!i10b 1
+!s100 ]h_=nB9iPS8KIi^SI@n1o0
+R6
+I]KQDL2D:@;8aKGEVg3ghf1
+R7
+S1
+R8
+w1682179829
+8H:/elec6234 cw/code - working folder/decoder.sv
+FH:/elec6234 cw/code - working folder/decoder.sv
+!i122 205
+L0 13 61
+R9
+r1
+!s85 0
+31
+R12
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/decoder.sv|
+!i113 0
+R11
+R2
+vpicoMIPS
+R4
+Z13 !s110 1682195659
+!i10b 1
+!s100 eezWVP]DKM71Vef[`nPWB1
+R6
+ID7K6Bb66z]fWi31kkL^ie1
+R7
+S1
+R8
+w1682195148
+8H:/elec6234 cw/code - working folder/picoMIPS.sv
+FH:/elec6234 cw/code - working folder/picoMIPS.sv
+!i122 214
+L0 11 83
+R9
+r1
+!s85 0
+31
+!s108 1682195658.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s
+vpicoMIPS4test
+R4
+!s110 1682194696
+!i10b 1
+!s100 SiHO_gz^^E=^`2H86U;XV1
+R6
+IKMFoX<[SNe^8m?<9@^J:]0
+R7
+S1
+R8
+w1682179078
+8H:/elec6234 cw/code - working folder/picoMIPS4test.sv
+FH:/elec6234 cw/code - working folder/picoMIPS4test.sv
+!i122 202
+L0 2 16
+R9
+r1
+!s85 0
+31
+R10
+!s107 H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s4test
+vprogram_counter
+R4
+R13
+!i10b 1
+!s100 Fk^FA^C]E:JkY@AZNRGCm1
+R6
+IbCT<Em_Na@n``YbJkGR?<2
+R7
+S1
+R8
+w1682195157
+8H:/elec6234 cw/code - working folder/program_counter.sv
+FH:/elec6234 cw/code - working folder/program_counter.sv
+!i122 215
+L0 9 27
+R9
+r1
+!s85 0
+31
+Z14 !s108 1682195659.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_counter.sv|
+!i113 0
+R11
+R2
+vprogram_memory
+R4
+!s110 1682194699
+!i10b 1
+!s100 kWhk<EmSH08G2zGV3A8Vi1
+R6
+I>cRGFBeDCc5Z<gTnk?8b>1
+R7
+S1
+R8
+w1682179595
+8H:/elec6234 cw/code - working folder/program_memory.sv
+FH:/elec6234 cw/code - working folder/program_memory.sv
+!i122 208
+L0 8 16
+R9
+r1
+!s85 0
+31
+Z15 !s108 1682194699.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_memory.sv|
+!i113 0
+R11
+R2
+vregisters
+R4
+R13
+!i10b 1
+!s100 LkIPdXggJ7dH4<SfNbmPC0
+R6
+I5?HSPGn1F:cB8@S]6lEJ53
+R7
+S1
+R8
+w1682195277
+8H:/elec6234 cw/code - working folder/registers.sv
+FH:/elec6234 cw/code - working folder/registers.sv
+!i122 216
+L0 9 46
+R9
+r1
+!s85 0
+31
+R14
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/registers.sv|
+!i113 0
+R11
+R2
+vtest_alu
+R4
+Z16 !s110 1682194701
+!i10b 1
+!s100 M6Ig5LN9z6PbPABOAWXAj2
+R6
+IBX<]=R^a@BczW>>^4]Re10
+R7
+S1
+R8
+w1682193027
+8H:/elec6234 cw/code - working folder/test_alu.sv
+FH:/elec6234 cw/code - working folder/test_alu.sv
+!i122 212
+L0 12 62
+R9
+r1
+!s85 0
+31
+!s108 1682194700.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_alu.sv|
+!i113 0
+R11
+R2
+vtest_decoder
+R4
+R16
+!i10b 1
+!s100 K1U7dU27fgDf]mCTJlVge2
+R6
+IaEH68[NSSl_mZAj=hD2]92
+R7
+S1
+R8
+w1682162134
+8H:/elec6234 cw/code - working folder/test_decoder.sv
+FH:/elec6234 cw/code - working folder/test_decoder.sv
+!i122 213
+L0 13 40
+R9
+r1
+!s85 0
+31
+!s108 1682194701.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!i113 0
+R11
+R2
+vtest_picoMIPS
+R4
+!s110 1682194700
+!i10b 1
+!s100 3VhKWQQ7iNfY7R:1EbGFk0
+R6
+IMa^4`zNb<HM<8Z4KnW>`80
+R7
+S1
+R8
+w1682194681
+8H:/elec6234 cw/code - working folder/test_picoMIPS.sv
+FH:/elec6234 cw/code - working folder/test_picoMIPS.sv
+!i122 210
+L0 7 51
+R9
+r1
+!s85 0
+31
+R15
+!s107 H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!i113 0
+R11
+R2
+ntest_pico@m@i@p@s
+vtest_registers
+R4
+!s110 1682196157
+!i10b 1
+!s100 cP_HADN?SEISnQTHCWgAR2
+R6
+IeW6CS??YHcJcj86NB2f9^3
+R7
+S1
+R8
+w1682196128
+8H:/elec6234 cw/code - working folder/test_registers.sv
+FH:/elec6234 cw/code - working folder/test_registers.sv
+!i122 218
+L0 10 66
+R9
+r1
+!s85 0
+31
+!s108 1682196157.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/test_registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_registers.sv|
+!i113 0
+R11
+R2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/elec6234 cw/ModelSim/Program Memory
+T_opt
+!s110 1682192754
+V6G7^db:Cbccj9kI=MMW=O1
+04 12 4 work test_decoder fast 0
+=1-0050569d40c7-64443971-313-5ee8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.1;71
+R0
+T_opt1
+!s110 1682194710
+VHbkL5QN2a3`5LdiP6>M1>1
+04 13 4 work test_picoMIPS fast 0
+=1-0050569d40c7-64444114-38f-1874
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1682196414
+VK3>1?l^R2d]NBb6ODjgL03
+04 14 4 work test_registers fast 0
+=1-0050569d40c7-644447bd-39b-77c8
+R1
+R2
+n@_opt2
+R3
+valu
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1682194697
+!i10b 1
+!s100 =<l_9NY9Q]:aNa>2868S^3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`2R`AhX]^dh[5coBOn30d2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z8 dH:/elec6234 cw/ModelSim/picoMIPS design
+w1682194249
+8H:/elec6234 cw/code - working folder/alu.sv
+FH:/elec6234 cw/code - working folder/alu.sv
+!i122 203
+L0 11 44
+Z9 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1682194696.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alu.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcounter
+R4
+R5
+!i10b 1
+!s100 ?_0Efm<b`=O<MG?b_`i_M1
+R6
+Ia`^PmA3B>ezPo8A]9LKj_0
+R7
+S1
+R8
+w1677496109
+8H:/elec6234 cw/code - working folder/counter.sv
+FH:/elec6234 cw/code - working folder/counter.sv
+!i122 204
+L0 2 11
+R9
+r1
+!s85 0
+31
+Z12 !s108 1682194697.000000
+!s107 H:/elec6234 cw/code - working folder/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/counter.sv|
+!i113 0
+R11
+R2
+vdecoder
+R4
+!s110 1682194698
+!i10b 1
+!s100 ]h_=nB9iPS8KIi^SI@n1o0
+R6
+I]KQDL2D:@;8aKGEVg3ghf1
+R7
+S1
+R8
+w1682179829
+8H:/elec6234 cw/code - working folder/decoder.sv
+FH:/elec6234 cw/code - working folder/decoder.sv
+!i122 205
+L0 13 61
+R9
+r1
+!s85 0
+31
+R12
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/decoder.sv|
+!i113 0
+R11
+R2
+vpicoMIPS
+R4
+Z13 !s110 1682195659
+!i10b 1
+!s100 eezWVP]DKM71Vef[`nPWB1
+R6
+ID7K6Bb66z]fWi31kkL^ie1
+R7
+S1
+R8
+w1682195148
+8H:/elec6234 cw/code - working folder/picoMIPS.sv
+FH:/elec6234 cw/code - working folder/picoMIPS.sv
+!i122 214
+L0 11 83
+R9
+r1
+!s85 0
+31
+!s108 1682195658.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s
+vpicoMIPS4test
+R4
+!s110 1682194696
+!i10b 1
+!s100 SiHO_gz^^E=^`2H86U;XV1
+R6
+IKMFoX<[SNe^8m?<9@^J:]0
+R7
+S1
+R8
+w1682179078
+8H:/elec6234 cw/code - working folder/picoMIPS4test.sv
+FH:/elec6234 cw/code - working folder/picoMIPS4test.sv
+!i122 202
+L0 2 16
+R9
+r1
+!s85 0
+31
+R10
+!s107 H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+!i113 0
+R11
+R2
+npico@m@i@p@s4test
+vprogram_counter
+R4
+R13
+!i10b 1
+!s100 Fk^FA^C]E:JkY@AZNRGCm1
+R6
+IbCT<Em_Na@n``YbJkGR?<2
+R7
+S1
+R8
+w1682195157
+8H:/elec6234 cw/code - working folder/program_counter.sv
+FH:/elec6234 cw/code - working folder/program_counter.sv
+!i122 215
+L0 9 27
+R9
+r1
+!s85 0
+31
+Z14 !s108 1682195659.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_counter.sv|
+!i113 0
+R11
+R2
+vprogram_memory
+R4
+!s110 1682194699
+!i10b 1
+!s100 kWhk<EmSH08G2zGV3A8Vi1
+R6
+I>cRGFBeDCc5Z<gTnk?8b>1
+R7
+S1
+R8
+w1682179595
+8H:/elec6234 cw/code - working folder/program_memory.sv
+FH:/elec6234 cw/code - working folder/program_memory.sv
+!i122 208
+L0 8 16
+R9
+r1
+!s85 0
+31
+Z15 !s108 1682194699.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_memory.sv|
+!i113 0
+R11
+R2
+vregisters
+R4
+R13
+!i10b 1
+!s100 LkIPdXggJ7dH4<SfNbmPC0
+R6
+I5?HSPGn1F:cB8@S]6lEJ53
+R7
+S1
+R8
+w1682195277
+8H:/elec6234 cw/code - working folder/registers.sv
+FH:/elec6234 cw/code - working folder/registers.sv
+!i122 216
+L0 9 46
+R9
+r1
+!s85 0
+31
+R14
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/registers.sv|
+!i113 0
+R11
+R2
+vtest_alu
+R4
+Z16 !s110 1682194701
+!i10b 1
+!s100 M6Ig5LN9z6PbPABOAWXAj2
+R6
+IBX<]=R^a@BczW>>^4]Re10
+R7
+S1
+R8
+w1682193027
+8H:/elec6234 cw/code - working folder/test_alu.sv
+FH:/elec6234 cw/code - working folder/test_alu.sv
+!i122 212
+L0 12 62
+R9
+r1
+!s85 0
+31
+!s108 1682194700.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_alu.sv|
+!i113 0
+R11
+R2
+vtest_decoder
+R4
+R16
+!i10b 1
+!s100 K1U7dU27fgDf]mCTJlVge2
+R6
+IaEH68[NSSl_mZAj=hD2]92
+R7
+S1
+R8
+w1682162134
+8H:/elec6234 cw/code - working folder/test_decoder.sv
+FH:/elec6234 cw/code - working folder/test_decoder.sv
+!i122 213
+L0 13 40
+R9
+r1
+!s85 0
+31
+!s108 1682194701.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_decoder.sv|
+!i113 0
+R11
+R2
+vtest_picoMIPS
+R4
+!s110 1682194700
+!i10b 1
+!s100 3VhKWQQ7iNfY7R:1EbGFk0
+R6
+IMa^4`zNb<HM<8Z4KnW>`80
+R7
+S1
+R8
+w1682194681
+8H:/elec6234 cw/code - working folder/test_picoMIPS.sv
+FH:/elec6234 cw/code - working folder/test_picoMIPS.sv
+!i122 210
+L0 7 51
+R9
+r1
+!s85 0
+31
+R15
+!s107 H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!i113 0
+R11
+R2
+ntest_pico@m@i@p@s
+vtest_registers
+R4
+!s110 1682196404
+!i10b 1
+!s100 NMfTNSFGVnE:lP:1;D1Z53
+R6
+Ig6lYSX`7P@U5[YDGiBPcM1
+R7
+S1
+R8
+w1682196385
+8H:/elec6234 cw/code - working folder/test_registers.sv
+FH:/elec6234 cw/code - working folder/test_registers.sv
+!i122 219
+L0 10 66
+R9
+r1
+!s85 0
+31
+!s108 1682196404.000000
+!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/test_registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_registers.sv|
+!i113 0
+R11
+R2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
