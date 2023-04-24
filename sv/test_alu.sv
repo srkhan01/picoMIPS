@@ -86,6 +86,15 @@ begin
 	#5 
 	if(result != 8'b11111100) 
 		$error("Result '%d' is incorrect. Should be -4.", result);
+		
+	// Truncated Multiplication
+	#10;
+	alu_a = 8'b01100000; // = 0.75 in fixed point notation
+	alu_b = 8'b11110110; // -10
+	alu_func = `RMULT;
+	#5 
+	if(result != 8'b11111000) 
+		$error("Result '%d' is incorrect. Should be -8", result);
 	
 end
 

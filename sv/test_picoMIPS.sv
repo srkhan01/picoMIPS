@@ -39,18 +39,50 @@ initial begin
   
   #5 reset_switch = 1; // stop reset
   
-  #10 input_switches = 'd8; // x1
+  // Loop 1
+  
+  #10 input_switches = 'd8; // x1 = 8
   #20 handshake_switch = 1; // wait for handshake=1
   #20 handshake_switch = 0; // wait for handshake=0
   
-  #20 input_switches = 'd16; // y1
+  #20 input_switches = 'd16; // y1 = 16
   #20 handshake_switch = 1; // wait for handshake=1
   #20 handshake_switch = 0; // wait for handshake=0
   
-  #100 // wait for at least 5 more clock cycles for x2 to display
-  #20 handshake_switch = 1;
+  #200; // wait for at least 9 more clock cycles for x2 to display. We expect a result of 34 or 00100010
+  if(LED != 8'b00100010)
+	$error("LED output for x2 '%h' wrong. Should be d34", LED);
+	
+  #20 handshake_switch = 1; // y2 should display. We expect a result of -12 or 11110100
+  #20;
+  if(LED != 8'b11110100)
+	$error("LED output for y2 '%h' wrong. Should be -d12", LED);
+  #40; 
+
+  #20 handshake_switch = 0;
   
-  #100 // wait for at least 6 more clock cycles for y2 to display
+  // Loop 2
+  
+  #50;
+  
+  #10 input_switches = 8'b00001010; // x1 = 10
+  #20 handshake_switch = 1; // wait for handshake=1
+  #20 handshake_switch = 0; // wait for handshake=0
+  
+  #20 input_switches = 8'b11110110; // y1 = -10
+  #20 handshake_switch = 1; // wait for handshake=1
+  #20 handshake_switch = 0; // wait for handshake=0
+  
+  #200; // wait for at least 9 more clock cycles for x2 to display. We expect a result of 22 or 00010110
+  if(LED != 8'b00010110)
+	$error("LED output for x2 '%h' wrong. Should be d22", LED);
+	
+  #20 handshake_switch = 1; // y2 should display. We expect a result of -32 or 11100000
+  #20;
+  if(LED != 8'b11011111)
+	$error("LED output for y2 '%h' wrong. Should be -d33", LED);
+  #40; 
+
   #20 handshake_switch = 0;
   
 end

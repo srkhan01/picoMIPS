@@ -37,8 +37,11 @@ begin
 
   #10;
   pc_inc = 1;
-  #300
-
+  #390;
+  n_reset = 0;
+  #10;
+  n_reset = 1;
+  #30;
   pc_inc = 0;
 end
 endmodule // module test_program_counter

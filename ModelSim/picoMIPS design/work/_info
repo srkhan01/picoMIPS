@@ -10,30 +10,29 @@ z2
 cModel Technology
 Z0 dH:/elec6234 cw/ModelSim/Program Memory
 T_opt
-!s110 1682202453
-VYiQF8@oH[YViFh6b^SM<C3
+!s110 1682331362
+V8ajVA8]dS40<Gz@d<S?Ji1
 04 8 4 work test_alu fast 0
-=1-0050569d40c7-64445f54-21e-7dec
+=1-48210b30f90d-644656e1-344-39fc
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.1;71
 R0
 T_opt1
-!s110 1682201398
-V1JAX0dQEHdoF6P>j8<@d@0
+!s110 1682331510
+V<L13JfN2VL6bg?lEB1cEb2
 04 13 4 work test_picoMIPS fast 0
-=1-0050569d40c7-64445b34-199-171c
+=1-48210b30f90d-64465775-209-3a38
 R1
 R2
 n@_opt1
 R3
-R0
 T_opt2
-!s110 1682201374
-VkhzgD5FkK<I1o_S?7M9[W1
+!s110 1682329126
+VeSmA`FfOSaIL;_]^Ij;7K3
 04 14 4 work test_registers fast 0
-=1-0050569d40c7-64445b1d-2c9-5740
+=1-48210b30f90d-64464e25-288-2d2c
 R1
 R2
 n@_opt2
@@ -41,304 +40,354 @@ R3
 R0
 valu
 Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z5 !s110 1682203072
+!s110 1682327495
 !i10b 1
-!s100 =<l_9NY9Q]:aNa>2868S^3
-Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I`2R`AhX]^dh[5coBOn30d2
-Z7 VDg1SIo80bB@j0V0VzS_@n1
+!s100 03Q@l3ZHgE1]6:D<@k7@93
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik4Je7QWeUASein;VdLTa62
+Z6 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z8 dH:/elec6234 cw/ModelSim/picoMIPS design
-w1682194249
-8H:/elec6234 cw/code - working folder/alu.sv
-FH:/elec6234 cw/code - working folder/alu.sv
-!i122 279
-L0 11 44
-Z9 OL;L;2020.1;71
+Z7 dH:/elec6234 cw/repo/picoMIPS/ModelSim/picoMIPS design
+w1682276987
+8H:/elec6234 cw/repo/picoMIPS/sv/alu.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/alu.sv
+!i122 28
+L0 12 46
+Z8 OL;L;2020.1;71
 r1
 !s85 0
 31
-Z10 !s108 1682203072.000000
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/alu.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/alu.sv|
+Z9 !s108 1682327495.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/alu.sv|
 !i113 0
-Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vcounter
 R4
-Z12 !s110 1682203073
+Z11 !s110 1682327496
 !i10b 1
 !s100 ?_0Efm<b`=O<MG?b_`i_M1
+R5
+I5e@b6gci6Rh3k9>l?5DQ62
 R6
-Ia`^PmA3B>ezPo8A]9LKj_0
-R7
 S1
-R8
+R7
 w1677496109
-8H:/elec6234 cw/code - working folder/counter.sv
-FH:/elec6234 cw/code - working folder/counter.sv
-!i122 280
+8H:/elec6234 cw/repo/picoMIPS/sv/counter.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/counter.sv
+!i122 29
 L0 2 11
-R9
+R8
 r1
 !s85 0
 31
-Z13 !s108 1682203073.000000
-!s107 H:/elec6234 cw/code - working folder/counter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/counter.sv|
+R9
+!s107 H:/elec6234 cw/repo/picoMIPS/sv/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/counter.sv|
 !i113 0
-R11
+R10
 R2
 vdecoder
 R4
-R12
+R11
 !i10b 1
-!s100 ]h_=nB9iPS8KIi^SI@n1o0
+!s100 iZF07b0idOQBdWBbXHXb[3
+R5
+I<@]O=L6[V>=X9<Di;G>ll0
 R6
-I]KQDL2D:@;8aKGEVg3ghf1
-R7
 S1
+R7
+w1682276888
+8H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/decoder.sv
+!i122 30
+L0 13 62
 R8
-w1682179829
-8H:/elec6234 cw/code - working folder/decoder.sv
-FH:/elec6234 cw/code - working folder/decoder.sv
-!i122 281
-L0 13 61
-R9
 r1
 !s85 0
 31
-R13
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/decoder.sv|
+Z12 !s108 1682327496.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\opcodes.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv|
 !i113 0
-R11
+R10
 R2
 vpicoMIPS
 R4
-!s110 1682203074
+Z13 !s110 1682327497
 !i10b 1
-!s100 <9jmgQWje:]mK:lHW``]a3
+!s100 R=lc@fRZ^z0<BL?H^97`53
+R5
+I=BRCTjR]lb;R_5V?1QgZU2
 R6
-IiGPGf[GXihzWL1nlDCnmA3
-R7
 S1
-R8
+R7
 w1682199785
-8H:/elec6234 cw/code - working folder/picoMIPS.sv
-FH:/elec6234 cw/code - working folder/picoMIPS.sv
-!i122 282
+8H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv
+!i122 31
 L0 11 91
-R9
+R8
 r1
 !s85 0
 31
-Z14 !s108 1682203074.000000
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/picoMIPS.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS.sv|
+R12
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv|
 !i113 0
-R11
+R10
 R2
 npico@m@i@p@s
 vpicoMIPS4test
 R4
-R5
+R13
 !i10b 1
 !s100 SiHO_gz^^E=^`2H86U;XV1
+R5
+IBdHFOGICAZeVDn7SdejJ:1
 R6
-IKMFoX<[SNe^8m?<9@^J:]0
-R7
 S1
-R8
+R7
 w1682179078
-8H:/elec6234 cw/code - working folder/picoMIPS4test.sv
-FH:/elec6234 cw/code - working folder/picoMIPS4test.sv
-!i122 278
+8H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv
+!i122 32
 L0 2 16
-R9
+R8
 r1
 !s85 0
 31
-R10
-!s107 H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/picoMIPS4test.sv|
+Z14 !s108 1682327497.000000
+!s107 H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv|
 !i113 0
-R11
+R10
 R2
 npico@m@i@p@s4test
 vprogram_counter
 R4
-Z15 !s110 1682203075
+R13
 !i10b 1
-!s100 MHnPC[ZmXfK`B6ca352T10
+!s100 L2:c4F>g]_EP<M@MQ@z5@1
+R5
+I8db=5EHN7BzE_cSSZ;lW^2
 R6
-I5Un0e_bYi>BVH:o:eO:z>2
-R7
 S1
+R7
+w1682244711
+8H:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv
+!i122 33
+L0 9 28
 R8
-w1682196784
-8H:/elec6234 cw/code - working folder/program_counter.sv
-FH:/elec6234 cw/code - working folder/program_counter.sv
-!i122 283
-L0 9 24
-R9
 r1
 !s85 0
 31
 R14
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_counter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_counter.sv|
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv|
 !i113 0
-R11
+R10
 R2
 vprogram_memory
 R4
-R15
+Z15 !s110 1682327498
 !i10b 1
-!s100 kWhk<EmSH08G2zGV3A8Vi1
+!s100 4Q@`lOMXzNBBN?0?:cR>L1
+R5
+I94WWICK54jJF<UMb0GLOL0
 R6
-I>cRGFBeDCc5Z<gTnk?8b>1
-R7
 S1
-R8
-w1682179595
-8H:/elec6234 cw/code - working folder/program_memory.sv
-FH:/elec6234 cw/code - working folder/program_memory.sv
-!i122 284
+R7
+w1682243162
+8H:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv
+!i122 34
 L0 8 16
-R9
+R8
 r1
 !s85 0
 31
-Z16 !s108 1682203075.000000
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/program_memory.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/program_memory.sv|
+R14
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv|
 !i113 0
-R11
+R10
 R2
 vregisters
 R4
 R15
 !i10b 1
-!s100 z9k@1P6@;fTfQU7NJV?UI0
+!s100 bbMzP3k;DA`6LX;O8lI9b1
+R5
+I]V69b]B:I^L5?OJhnfak92
 R6
-I2WfL?CelIImK<>a]]dFiL1
-R7
 S1
+R7
+w1682244870
+8H:/elec6234 cw/repo/picoMIPS/sv/registers.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/registers.sv
+!i122 35
+L0 9 64
 R8
-w1682200768
-8H:/elec6234 cw/code - working folder/registers.sv
-FH:/elec6234 cw/code - working folder/registers.sv
-!i122 285
-L0 9 58
-R9
 r1
 !s85 0
 31
-R16
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/registers.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/registers.sv|
+Z16 !s108 1682327498.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/registers.sv|
 !i113 0
-R11
+R10
 R2
 vtest_alu
 R4
-Z17 !s110 1682203076
+!s110 1682331351
 !i10b 1
-!s100 ][z3nJ<]DEidjJmmgLF?l2
+!s100 0Tm<RZedYTfOVU31`7_a]0
+R5
+IP<4i]54MZPP;UX]oK`JB`3
 R6
-IOaZdeR03eeLU;DPn;@Ymf2
-R7
 S1
+R7
+w1682331338
+8H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv
+!i122 50
+L0 12 90
 R8
-w1682202425
-8H:/elec6234 cw/code - working folder/test_alu.sv
-FH:/elec6234 cw/code - working folder/test_alu.sv
-!i122 288
-L0 12 71
-R9
 r1
 !s85 0
 31
-Z18 !s108 1682203076.000000
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_alu.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_alu.sv|
+!s108 1682331351.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv|
 !i113 0
-R11
+R10
 R2
 vtest_decoder
 R4
-!s110 1682203077
+!s110 1682327499
 !i10b 1
 !s100 K1U7dU27fgDf]mCTJlVge2
+R5
+IG4bP`g5QV=jUB91g5ElSW2
 R6
-IaEH68[NSSl_mZAj=hD2]92
-R7
 S1
-R8
-w1682162134
-8H:/elec6234 cw/code - working folder/test_decoder.sv
-FH:/elec6234 cw/code - working folder/test_decoder.sv
-!i122 289
+R7
+w1682276700
+8H:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv
+!i122 37
 L0 13 40
-R9
-r1
-!s85 0
-31
-R18
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:\elec6234 cw\code - working folder\opcodes.sv|H:\elec6234 cw\code - working folder\alucodes.sv|H:/elec6234 cw/code - working folder/test_decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_decoder.sv|
-!i113 0
-R11
-R2
-vtest_picoMIPS
-R4
-R17
-!i10b 1
-!s100 g4=3lI:lnVmj7L1e_B_QB2
-R6
-Iikae7]1[D7lkmMdSY;X_Q2
-R7
-S1
 R8
-w1682199366
-8H:/elec6234 cw/code - working folder/test_picoMIPS.sv
-FH:/elec6234 cw/code - working folder/test_picoMIPS.sv
-!i122 286
-L0 7 51
-R9
 r1
 !s85 0
 31
 R16
-!s107 H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_picoMIPS.sv|
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\opcodes.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv|
 !i113 0
-R11
+R10
 R2
-ntest_pico@m@i@p@s
-vtest_registers
+vtest_pc
 R4
-R17
+!s110 1682328736
 !i10b 1
-!s100 LZSW9k6Ih0W3eGzR^fCen0
+!s100 8:]Q@lKc]c>oPbh3ZcC>N1
+R5
+IKVmH[gVY;z5NL2Rg8beZa2
 R6
-IGRDlmFQl]C<^^BIebJm_Q1
-R7
 S1
+R7
+w1682328729
+8H:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv
+!i122 44
+L0 9 39
 R8
-w1682201078
-8H:/elec6234 cw/code - working folder/test_registers.sv
-FH:/elec6234 cw/code - working folder/test_registers.sv
-!i122 287
-L0 10 66
-R9
 r1
 !s85 0
 31
-R18
-!s107 H:\elec6234 cw\code - working folder\global_parameters.sv|H:/elec6234 cw/code - working folder/test_registers.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/code - working folder/test_registers.sv|
+!s108 1682328736.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv|
 !i113 0
-R11
+R10
+R2
+vtest_picoMIPS
+R4
+!s110 1682331504
+!i10b 1
+!s100 5FWG0_U>bPiKJWM?2Tl_j0
+R5
+IjG=9=dIYGhjAOc8mVE:4[3
+R6
+S1
+R7
+w1682331491
+8H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv
+!i122 51
+L0 7 83
+R8
+r1
+!s85 0
+31
+!s108 1682331503.000000
+!s107 H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv|
+!i113 0
+R10
+R2
+ntest_pico@m@i@p@s
+vtest_program_memory
+R4
+!s110 1682330951
+!i10b 1
+!s100 KJIA5^U>SV_2I@=AVaz8V2
+R5
+I6Z80ON;_IcfUg638@f@l<1
+R6
+S1
+R7
+w1682328897
+8H:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv
+!i122 48
+L0 10 37
+R8
+r1
+!s85 0
+31
+!s108 1682330951.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv|
+!i113 0
+R10
+R2
+vtest_registers
+R4
+!s110 1682327500
+!i10b 1
+!s100 LN[O`2BKUm>:V[c::oz:T3
+R5
+I2CPn3GHOInK;fm:NL6nF11
+R6
+S1
+R7
+w1682201078
+8H:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv
+FH:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv
+!i122 41
+L0 10 66
+R8
+r1
+!s85 0
+31
+!s108 1682327500.000000
+!s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv|
+!i113 0
+R10
 R2

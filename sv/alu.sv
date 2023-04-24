@@ -15,7 +15,7 @@ module alu #(
   parameter alu_code_size = `ALU_CODE_SIZE) (
   
   input wire signed [n-1:0] a, b, // ALU operands
-  input logic [1:0] func, // ALU function code
+  input logic [alu_code_size-1:0] func, // ALU function code
   output logic signed [n-1:0] result // ALU result
 );       
 

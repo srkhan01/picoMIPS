@@ -1,0 +1,480 @@
+# Compile of alu.sv was successful.
+# Compile of alucodes.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder.sv was successful.
+# Compile of global_parameters.sv was successful.
+# Compile of opcodes.sv was successful.
+# Compile of picoMIPS.sv was successful.
+# Compile of picoMIPS4test.sv was successful.
+# Compile of program_counter.sv was successful.
+# Compile of program_memory.sv was successful.
+# Compile of registers.sv was successful.
+# Compile of test_alu.sv was successful.
+# Compile of test_decoder.sv was successful.
+# Compile of test_pc.sv was successful.
+# Compile of test_picoMIPS.sv was successful.
+# Compile of test_program_memory.sv was successful.
+# Compile of test_registers.sv was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.test_alu
+# vsim -voptargs="+acc" work.test_alu 
+# Start time: 10:12:38 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_alu(fast)
+# Loading work.alu(fast)
+add wave -position end  sim:/test_alu/alu_func
+add wave -position end  sim:/test_alu/alu_a
+add wave -position end  sim:/test_alu/alu_b
+add wave -position end  sim:/test_alu/result
+run
+vsim -voptargs=+acc work.test_decoder
+# End time: 10:18:41 on Apr 24,2023, Elapsed time: 0:06:03
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.test_decoder 
+# Start time: 10:18:41 on Apr 24,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.test_decoder(fast)
+# Loading work.decoder(fast)
+add wave -position end  sim:/test_decoder/opcode
+add wave -position end  sim:/test_decoder/sw8
+add wave -position end  sim:/test_decoder/pc_inc
+add wave -position end  sim:/test_decoder/imm
+add wave -position end  sim:/test_decoder/w
+add wave -position end  sim:/test_decoder/alu_func
+run
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_decoder.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_decoder.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+vsim -voptargs=+acc work.test_pc
+# End time: 10:24:17 on Apr 24,2023, Elapsed time: 0:05:36
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.test_pc 
+# Start time: 10:24:17 on Apr 24,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_pc(fast)
+# Loading work.program_counter(fast)
+add wave -position end  sim:/test_pc/clk
+add wave -position end  sim:/test_pc/n_reset
+add wave -position end  sim:/test_pc/pc_inc
+add wave -position end  sim:/test_pc/program_address
+run
+# Causality operation skipped due to absence of debug database file
+# Compile of test_pc.sv was successful.
+vsim -voptargs=+acc work.test_pc
+# End time: 10:27:01 on Apr 24,2023, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.test_pc 
+# Start time: 10:27:01 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_pc(fast)
+# Loading work.program_counter(fast)
+add wave -position end  sim:/test_pc/program_code_size
+add wave -position end  sim:/test_pc/clk
+add wave -position end  sim:/test_pc/n_reset
+add wave -position end  sim:/test_pc/pc_inc
+add wave -position end  sim:/test_pc/program_address
+run
+# Compile of test_pc.sv was successful.
+vsim -voptargs=+acc work.test_pc
+# End time: 10:28:25 on Apr 24,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.test_pc 
+# Start time: 10:28:25 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_pc(fast)
+# Loading work.program_counter(fast)
+add wave -position end  sim:/test_pc/clk
+add wave -position end  sim:/test_pc/n_reset
+add wave -position end  sim:/test_pc/pc_inc
+add wave -position end  sim:/test_pc/program_address
+run
+# Compile of test_pc.sv failed with 1 errors.
+# Compile of test_pc.sv was successful.
+vsim -voptargs=+acc work.test_pc
+# End time: 10:32:22 on Apr 24,2023, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.test_pc 
+# Start time: 10:32:22 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_pc(fast)
+# Loading work.program_counter(fast)
+add wave -position end  sim:/test_pc/clk
+add wave -position end  sim:/test_pc/n_reset
+add wave -position end  sim:/test_pc/pc_inc
+add wave -position end  sim:/test_pc/program_address
+run
+# Compile of test_program_memory.sv was successful.
+vsim -voptargs=+acc work.test_program_memory
+# End time: 10:35:11 on Apr 24,2023, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.test_program_memory 
+# Start time: 10:35:11 on Apr 24,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_program_memory(fast)
+# Loading work.program_memory(fast)
+add wave -position end  sim:/test_program_memory/address
+add wave -position end  sim:/test_program_memory/instruction_code
+add wave -position end  sim:/test_program_memory/memory
+run
+# memory[0] = 0200, instruction_code = 0200
+# memory[1] = 2520, instruction_code = 2520
+# memory[2] = 03a0, instruction_code = 03a0
+# memory[3] = 2620, instruction_code = 2620
+# memory[4] = 04c0, instruction_code = 04c0
+# memory[5] = 3b60, instruction_code = 3b60
+# memory[6] = 3c40, instruction_code = 3c40
+# memory[7] = 0b80, instruction_code = 0b80
+# memory[8] = 2b14, instruction_code = 2b14
+# memory[9] = 3dc0, instruction_code = 3dc0
+# memory[a] = 3e60, instruction_code = 3e60
+# memory[b] = 0dc0, instruction_code = 0dc0
+# memory[c] = 2dec, instruction_code = 2dec
+# memory[d] = 3260, instruction_code = 3260
+# memory[e] = 22a0, instruction_code = 22a0
+# memory[f] = 0200, instruction_code = 0200
+vsim -voptargs=+acc work.test_registers
+# End time: 10:38:45 on Apr 24,2023, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.test_registers 
+# Start time: 10:38:45 on Apr 24,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_registers(fast)
+# Loading work.registers(fast)
+add wave -position end  sim:/test_registers/clk
+add wave -position end  sim:/test_registers/w
+add wave -position end  sim:/test_registers/write_data
+add wave -position end  sim:/test_registers/r_dest
+add wave -position end  sim:/test_registers/r_source
+add wave -position end  sim:/test_registers/inport
+add wave -position end  sim:/test_registers/rd_data
+add wave -position end  sim:/test_registers/rs_data
+add wave -position end  sim:/test_registers/outport
+run
+# GPR at time 40: Wrote 05 to gpr[03]: 05
+# GPR at time 60: Wrote 18 to gpr[04]: 18
+# Compile of test_picoMIPS.sv was successful.
+vsim -voptargs=+acc work.test_picoMIPS
+# End time: 10:55:09 on Apr 24,2023, Elapsed time: 0:16:24
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.test_picoMIPS 
+# Start time: 10:55:09 on Apr 24,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_picoMIPS(fast)
+# Loading work.picoMIPS(fast)
+# Loading work.program_counter(fast)
+# Loading work.program_memory(fast)
+# Loading work.decoder(fast)
+# Loading work.registers(fast)
+# Loading work.alu(fast)
+add wave -position end  sim:/test_picoMIPS/clk
+add wave -position end  sim:/test_picoMIPS/reset_switch
+add wave -position end  sim:/test_picoMIPS/handshake_switch
+add wave -position end  sim:/test_picoMIPS/input_switches
+add wave -position end  sim:/test_picoMIPS/SW
+add wave -position end  sim:/test_picoMIPS/LED
+run
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_picoMIPS.pmtest.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_picoMIPS.pmtest.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# picoMIPS monitor: time:0, program_address: x, instruction_code: xxxx, opcode: x, alu_result: xx, alu_a: xx, r_dest: 0X, rd_data: xx, alu_b: xx, r_source: 0X, rs_data: xx
+# picoMIPS monitor: time:2, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: xx, r_dest: 02, rd_data: xx, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:10, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 00, alu_a: xx, r_dest: 05, rd_data: xx, alu_b: 00, r_source: 01, rs_data: 00
+# picoMIPS monitor: time:17, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 08, alu_a: xx, r_dest: 05, rd_data: xx, alu_b: 08, r_source: 01, rs_data: 08
+# picoMIPS monitor: time:40, program_address: 2, instruction_code: 03a0, opcode: 0, alu_result: 08, alu_a: xx, r_dest: 03, rd_data: xx, alu_b: 08, r_source: 05, rs_data: 08
+# GPR at time 40: Wrote 08 to gpr[03]: xx
+# picoMIPS monitor: time:60, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 08, alu_a: xx, r_dest: 06, rd_data: xx, alu_b: 08, r_source: 01, rs_data: 08
+# GPR at time 60: Wrote 08 to gpr[06]: xx
+# picoMIPS monitor: time:77, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 10, alu_a: xx, r_dest: 06, rd_data: xx, alu_b: 10, r_source: 01, rs_data: 10
+# picoMIPS monitor: time:100, program_address: 4, instruction_code: 04c0, opcode: 0, alu_result: 10, alu_a: xx, r_dest: 04, rd_data: xx, alu_b: 10, r_source: 06, rs_data: 10
+# GPR at time 100: Wrote 10 to gpr[04]: xx
+# picoMIPS monitor: time:120, program_address: 5, instruction_code: 3b60, opcode: 7, alu_result: 06, alu_a: 08, r_dest: 03, rd_data: 08, alu_b: 60, r_source: 03, rs_data: 08
+# GPR at time 120: Wrote 06 to gpr[03]: 08
+# picoMIPS monitor: time:130, program_address: 6, instruction_code: 3c40, opcode: 7, alu_result: 08, alu_a: 10, r_dest: 04, rd_data: 10, alu_b: 40, r_source: 02, rs_data: 00
+# GPR at time 130: Wrote 08 to gpr[04]: 10
+# picoMIPS monitor: time:140, program_address: 7, instruction_code: 0b80, opcode: 1, alu_result: 0e, alu_a: 06, r_dest: 03, rd_data: 06, alu_b: 08, r_source: 04, rs_data: 08
+# GPR at time 140: Wrote 0e to gpr[03]: 06
+# picoMIPS monitor: time:150, program_address: 8, instruction_code: 2b14, opcode: 5, alu_result: 22, alu_a: 0e, r_dest: 03, rd_data: 0e, alu_b: 14, r_source: 00, rs_data: 00
+# GPR at time 150: Wrote 22 to gpr[03]: 0e
+# picoMIPS monitor: time:160, program_address: 9, instruction_code: 3dc0, opcode: 7, alu_result: fc, alu_a: 08, r_dest: 05, rd_data: 08, alu_b: c0, r_source: 06, rs_data: 10
+# GPR at time 160: Wrote fc to gpr[05]: 08
+# picoMIPS monitor: time:170, program_address: a, instruction_code: 3e60, opcode: 7, alu_result: 0c, alu_a: 10, r_dest: 06, rd_data: 10, alu_b: 60, r_source: 03, rs_data: 22
+# GPR at time 170: Wrote 0c to gpr[06]: 10
+# picoMIPS monitor: time:180, program_address: b, instruction_code: 0dc0, opcode: 1, alu_result: 08, alu_a: fc, r_dest: 05, rd_data: fc, alu_b: 0c, r_source: 06, rs_data: 0c
+# GPR at time 180: Wrote 08 to gpr[05]: fc
+# picoMIPS monitor: time:190, program_address: c, instruction_code: 2dec, opcode: 5, alu_result: f4, alu_a: 08, r_dest: 05, rd_data: 08, alu_b: ec, r_source: 07, rs_data: xx
+# GPR at time 190: Wrote f4 to gpr[05]: 08
+# picoMIPS monitor: time:200, program_address: d, instruction_code: 3260, opcode: 6, alu_result: 22, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 22, r_source: 03, rs_data: 22
+# GPR at time 200: Wrote 22 to gpr[02]: xx
+# picoMIPS monitor: time:210, program_address: e, instruction_code: 22a0, opcode: 4, alu_result: f4, alu_a: 22, r_dest: 02, rd_data: 22, alu_b: f4, r_source: 05, rs_data: f4
+# ** Error: LED output for x2 '22' wrong. Should be -d12
+#    Time: 337 ns  Scope: test_picoMIPS File: H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv Line: 58
+# picoMIPS monitor: time:340, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: f4, r_dest: 02, rd_data: f4, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:400, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:410, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 10, alu_a: f4, r_dest: 05, rd_data: f4, alu_b: 10, r_source: 01, rs_data: 10
+# picoMIPS monitor: time:457, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 0a, alu_a: f4, r_dest: 05, rd_data: f4, alu_b: 0a, r_source: 01, rs_data: 0a
+# picoMIPS monitor: time:480, program_address: 2, instruction_code: 03a0, opcode: 0, alu_result: 0a, alu_a: 22, r_dest: 03, rd_data: 22, alu_b: 0a, r_source: 05, rs_data: 0a
+# GPR at time 480: Wrote 0a to gpr[03]: 22
+run -continue
+run
+# picoMIPS monitor: time:500, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 0a, alu_a: 0c, r_dest: 06, rd_data: 0c, alu_b: 0a, r_source: 01, rs_data: 0a
+# GPR at time 500: Wrote 0a to gpr[06]: 0c
+# picoMIPS monitor: time:517, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: f6, alu_a: 0c, r_dest: 06, rd_data: 0c, alu_b: f6, r_source: 01, rs_data: f6
+# picoMIPS monitor: time:540, program_address: 4, instruction_code: 04c0, opcode: 0, alu_result: f6, alu_a: 08, r_dest: 04, rd_data: 08, alu_b: f6, r_source: 06, rs_data: f6
+# GPR at time 540: Wrote f6 to gpr[04]: 08
+# picoMIPS monitor: time:560, program_address: 5, instruction_code: 3b60, opcode: 7, alu_result: 07, alu_a: 0a, r_dest: 03, rd_data: 0a, alu_b: 60, r_source: 03, rs_data: 0a
+# GPR at time 560: Wrote 07 to gpr[03]: 0a
+# picoMIPS monitor: time:570, program_address: 6, instruction_code: 3c40, opcode: 7, alu_result: fb, alu_a: f6, r_dest: 04, rd_data: f6, alu_b: 40, r_source: 02, rs_data: 00
+# GPR at time 570: Wrote fb to gpr[04]: f6
+# picoMIPS monitor: time:580, program_address: 7, instruction_code: 0b80, opcode: 1, alu_result: 02, alu_a: 07, r_dest: 03, rd_data: 07, alu_b: fb, r_source: 04, rs_data: fb
+# GPR at time 580: Wrote 02 to gpr[03]: 07
+# picoMIPS monitor: time:590, program_address: 8, instruction_code: 2b14, opcode: 5, alu_result: 16, alu_a: 02, r_dest: 03, rd_data: 02, alu_b: 14, r_source: 00, rs_data: 00
+# GPR at time 590: Wrote 16 to gpr[03]: 02
+# picoMIPS monitor: time:600, program_address: 9, instruction_code: 3dc0, opcode: 7, alu_result: fb, alu_a: 0a, r_dest: 05, rd_data: 0a, alu_b: c0, r_source: 06, rs_data: f6
+# GPR at time 600: Wrote fb to gpr[05]: 0a
+# picoMIPS monitor: time:610, program_address: a, instruction_code: 3e60, opcode: 7, alu_result: f8, alu_a: f6, r_dest: 06, rd_data: f6, alu_b: 60, r_source: 03, rs_data: 16
+# GPR at time 610: Wrote f8 to gpr[06]: f6
+# picoMIPS monitor: time:620, program_address: b, instruction_code: 0dc0, opcode: 1, alu_result: f3, alu_a: fb, r_dest: 05, rd_data: fb, alu_b: f8, r_source: 06, rs_data: f8
+# GPR at time 620: Wrote f3 to gpr[05]: fb
+# picoMIPS monitor: time:630, program_address: c, instruction_code: 2dec, opcode: 5, alu_result: df, alu_a: f3, r_dest: 05, rd_data: f3, alu_b: ec, r_source: 07, rs_data: xx
+# GPR at time 630: Wrote df to gpr[05]: f3
+# picoMIPS monitor: time:640, program_address: d, instruction_code: 3260, opcode: 6, alu_result: 16, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 16, r_source: 03, rs_data: 16
+# GPR at time 640: Wrote 16 to gpr[02]: xx
+# picoMIPS monitor: time:650, program_address: e, instruction_code: 22a0, opcode: 4, alu_result: df, alu_a: 16, r_dest: 02, rd_data: 16, alu_b: df, r_source: 05, rs_data: df
+# ** Error: LED output for x2 '16' wrong. Should be -d32
+#    Time: 777 ns  Scope: test_picoMIPS File: H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv Line: 81
+# picoMIPS monitor: time:780, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: df, r_dest: 02, rd_data: df, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:840, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:850, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: f6, alu_a: df, r_dest: 05, rd_data: df, alu_b: f6, r_source: 01, rs_data: f6
+# Compile of test_picoMIPS.sv was successful.
+vsim -voptargs=+acc work.test_picoMIPS
+# End time: 11:00:10 on Apr 24,2023, Elapsed time: 0:05:01
+# Errors: 4, Warnings: 2
+# vsim -voptargs="+acc" work.test_picoMIPS 
+# Start time: 11:00:10 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_picoMIPS(fast)
+# Loading work.picoMIPS(fast)
+# Loading work.program_counter(fast)
+# Loading work.program_memory(fast)
+# Loading work.decoder(fast)
+# Loading work.registers(fast)
+# Loading work.alu(fast)
+add wave -position end  sim:/test_picoMIPS/clk
+add wave -position end  sim:/test_picoMIPS/reset_switch
+add wave -position end  sim:/test_picoMIPS/handshake_switch
+add wave -position end  sim:/test_picoMIPS/input_switches
+add wave -position end  sim:/test_picoMIPS/SW
+add wave -position end  sim:/test_picoMIPS/LED
+run
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_picoMIPS.pmtest.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_picoMIPS.pmtest.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# picoMIPS monitor: time:0, program_address: x, instruction_code: xxxx, opcode: x, alu_result: xx, alu_a: xx, r_dest: 0X, rd_data: xx, alu_b: xx, r_source: 0X, rs_data: xx
+# picoMIPS monitor: time:2, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: xx, r_dest: 02, rd_data: xx, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:10, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 00, alu_a: xx, r_dest: 05, rd_data: xx, alu_b: 00, r_source: 01, rs_data: 00
+# picoMIPS monitor: time:17, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 08, alu_a: xx, r_dest: 05, rd_data: xx, alu_b: 08, r_source: 01, rs_data: 08
+# picoMIPS monitor: time:40, program_address: 2, instruction_code: 03a0, opcode: 0, alu_result: 08, alu_a: xx, r_dest: 03, rd_data: xx, alu_b: 08, r_source: 05, rs_data: 08
+# GPR at time 40: Wrote 08 to gpr[03]: xx
+# picoMIPS monitor: time:60, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 08, alu_a: xx, r_dest: 06, rd_data: xx, alu_b: 08, r_source: 01, rs_data: 08
+# GPR at time 60: Wrote 08 to gpr[06]: xx
+# picoMIPS monitor: time:77, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 10, alu_a: xx, r_dest: 06, rd_data: xx, alu_b: 10, r_source: 01, rs_data: 10
+# picoMIPS monitor: time:100, program_address: 4, instruction_code: 04c0, opcode: 0, alu_result: 10, alu_a: xx, r_dest: 04, rd_data: xx, alu_b: 10, r_source: 06, rs_data: 10
+# GPR at time 100: Wrote 10 to gpr[04]: xx
+# picoMIPS monitor: time:120, program_address: 5, instruction_code: 3b60, opcode: 7, alu_result: 06, alu_a: 08, r_dest: 03, rd_data: 08, alu_b: 60, r_source: 03, rs_data: 08
+# GPR at time 120: Wrote 06 to gpr[03]: 08
+# picoMIPS monitor: time:130, program_address: 6, instruction_code: 3c40, opcode: 7, alu_result: 08, alu_a: 10, r_dest: 04, rd_data: 10, alu_b: 40, r_source: 02, rs_data: 00
+# GPR at time 130: Wrote 08 to gpr[04]: 10
+# picoMIPS monitor: time:140, program_address: 7, instruction_code: 0b80, opcode: 1, alu_result: 0e, alu_a: 06, r_dest: 03, rd_data: 06, alu_b: 08, r_source: 04, rs_data: 08
+# GPR at time 140: Wrote 0e to gpr[03]: 06
+# picoMIPS monitor: time:150, program_address: 8, instruction_code: 2b14, opcode: 5, alu_result: 22, alu_a: 0e, r_dest: 03, rd_data: 0e, alu_b: 14, r_source: 00, rs_data: 00
+# GPR at time 150: Wrote 22 to gpr[03]: 0e
+# picoMIPS monitor: time:160, program_address: 9, instruction_code: 3dc0, opcode: 7, alu_result: fc, alu_a: 08, r_dest: 05, rd_data: 08, alu_b: c0, r_source: 06, rs_data: 10
+# GPR at time 160: Wrote fc to gpr[05]: 08
+# picoMIPS monitor: time:170, program_address: a, instruction_code: 3e60, opcode: 7, alu_result: 0c, alu_a: 10, r_dest: 06, rd_data: 10, alu_b: 60, r_source: 03, rs_data: 22
+# GPR at time 170: Wrote 0c to gpr[06]: 10
+# picoMIPS monitor: time:180, program_address: b, instruction_code: 0dc0, opcode: 1, alu_result: 08, alu_a: fc, r_dest: 05, rd_data: fc, alu_b: 0c, r_source: 06, rs_data: 0c
+# GPR at time 180: Wrote 08 to gpr[05]: fc
+# picoMIPS monitor: time:190, program_address: c, instruction_code: 2dec, opcode: 5, alu_result: f4, alu_a: 08, r_dest: 05, rd_data: 08, alu_b: ec, r_source: 07, rs_data: xx
+# GPR at time 190: Wrote f4 to gpr[05]: 08
+# picoMIPS monitor: time:200, program_address: d, instruction_code: 3260, opcode: 6, alu_result: 22, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 22, r_source: 03, rs_data: 22
+# GPR at time 200: Wrote 22 to gpr[02]: xx
+# picoMIPS monitor: time:210, program_address: e, instruction_code: 22a0, opcode: 4, alu_result: f4, alu_a: 22, r_dest: 02, rd_data: 22, alu_b: f4, r_source: 05, rs_data: f4
+# picoMIPS monitor: time:340, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: f4, r_dest: 02, rd_data: f4, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:420, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:430, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 10, alu_a: f4, r_dest: 05, rd_data: f4, alu_b: 10, r_source: 01, rs_data: 10
+# picoMIPS monitor: time:477, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 0a, alu_a: f4, r_dest: 05, rd_data: f4, alu_b: 0a, r_source: 01, rs_data: 0a
+# picoMIPS monitor: time:500, program_address: 2, instruction_code: 03a0, opcode: 0, alu_result: 0a, alu_a: 22, r_dest: 03, rd_data: 22, alu_b: 0a, r_source: 05, rs_data: 0a
+# GPR at time 500: Wrote 0a to gpr[03]: 22
+# picoMIPS monitor: time:520, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 0a, alu_a: 0c, r_dest: 06, rd_data: 0c, alu_b: 0a, r_source: 01, rs_data: 0a
+# GPR at time 520: Wrote 0a to gpr[06]: 0c
+# picoMIPS monitor: time:537, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: f6, alu_a: 0c, r_dest: 06, rd_data: 0c, alu_b: f6, r_source: 01, rs_data: f6
+# picoMIPS monitor: time:560, program_address: 4, instruction_code: 04c0, opcode: 0, alu_result: f6, alu_a: 08, r_dest: 04, rd_data: 08, alu_b: f6, r_source: 06, rs_data: f6
+# GPR at time 560: Wrote f6 to gpr[04]: 08
+# picoMIPS monitor: time:580, program_address: 5, instruction_code: 3b60, opcode: 7, alu_result: 07, alu_a: 0a, r_dest: 03, rd_data: 0a, alu_b: 60, r_source: 03, rs_data: 0a
+# GPR at time 580: Wrote 07 to gpr[03]: 0a
+# picoMIPS monitor: time:590, program_address: 6, instruction_code: 3c40, opcode: 7, alu_result: fb, alu_a: f6, r_dest: 04, rd_data: f6, alu_b: 40, r_source: 02, rs_data: 00
+# GPR at time 590: Wrote fb to gpr[04]: f6
+# picoMIPS monitor: time:600, program_address: 7, instruction_code: 0b80, opcode: 1, alu_result: 02, alu_a: 07, r_dest: 03, rd_data: 07, alu_b: fb, r_source: 04, rs_data: fb
+# GPR at time 600: Wrote 02 to gpr[03]: 07
+# picoMIPS monitor: time:610, program_address: 8, instruction_code: 2b14, opcode: 5, alu_result: 16, alu_a: 02, r_dest: 03, rd_data: 02, alu_b: 14, r_source: 00, rs_data: 00
+# GPR at time 610: Wrote 16 to gpr[03]: 02
+# picoMIPS monitor: time:620, program_address: 9, instruction_code: 3dc0, opcode: 7, alu_result: fb, alu_a: 0a, r_dest: 05, rd_data: 0a, alu_b: c0, r_source: 06, rs_data: f6
+# GPR at time 620: Wrote fb to gpr[05]: 0a
+# picoMIPS monitor: time:630, program_address: a, instruction_code: 3e60, opcode: 7, alu_result: f8, alu_a: f6, r_dest: 06, rd_data: f6, alu_b: 60, r_source: 03, rs_data: 16
+# GPR at time 630: Wrote f8 to gpr[06]: f6
+# picoMIPS monitor: time:640, program_address: b, instruction_code: 0dc0, opcode: 1, alu_result: f3, alu_a: fb, r_dest: 05, rd_data: fb, alu_b: f8, r_source: 06, rs_data: f8
+# GPR at time 640: Wrote f3 to gpr[05]: fb
+# picoMIPS monitor: time:650, program_address: c, instruction_code: 2dec, opcode: 5, alu_result: df, alu_a: f3, r_dest: 05, rd_data: f3, alu_b: ec, r_source: 07, rs_data: xx
+# GPR at time 650: Wrote df to gpr[05]: f3
+# picoMIPS monitor: time:660, program_address: d, instruction_code: 3260, opcode: 6, alu_result: 16, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 16, r_source: 03, rs_data: 16
+# GPR at time 660: Wrote 16 to gpr[02]: xx
+# picoMIPS monitor: time:670, program_address: e, instruction_code: 22a0, opcode: 4, alu_result: df, alu_a: 16, r_dest: 02, rd_data: 16, alu_b: df, r_source: 05, rs_data: df
+# picoMIPS monitor: time:800, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: df, r_dest: 02, rd_data: df, alu_b: 00, r_source: 00, rs_data: 00
+# ** Error: LED output for y2 'df' wrong. Should be -d32
+#    Time: 817 ns  Scope: test_picoMIPS File: H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv Line: 83
+# picoMIPS monitor: time:880, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:890, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: f6, alu_a: df, r_dest: 05, rd_data: df, alu_b: f6, r_source: 01, rs_data: f6
+vsim -voptargs=+acc work.test_alu
+# End time: 11:09:00 on Apr 24,2023, Elapsed time: 0:08:50
+# Errors: 3, Warnings: 1
+# vsim -voptargs="+acc" work.test_alu 
+# Start time: 11:09:00 on Apr 24,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_alu(fast)
+# Loading work.alu(fast)
+# Compile of test_program_memory.sv was successful.
+# Compile of test_alu.sv was successful.
+vsim -voptargs=+acc work.test_alu
+# End time: 11:09:19 on Apr 24,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.test_alu 
+# Start time: 11:09:19 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_alu(fast)
+# Loading work.alu(fast)
+add wave -position end  sim:/test_alu/alu_func
+add wave -position end  sim:/test_alu/alu_a
+add wave -position end  sim:/test_alu/alu_b
+add wave -position end  sim:/test_alu/result
+run
+# ** Error: Result '  -8' is incorrect. Should be 7
+#    Time: 105 ns  Scope: test_alu File: H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv Line: 97
+# Compile of test_alu.sv was successful.
+vsim -voptargs=+acc work.test_alu
+# End time: 11:16:01 on Apr 24,2023, Elapsed time: 0:06:42
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.test_alu 
+# Start time: 11:16:01 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_alu(fast)
+# Loading work.alu(fast)
+add wave -position end  sim:/test_alu/alu_func
+add wave -position end  sim:/test_alu/alu_a
+add wave -position end  sim:/test_alu/alu_b
+add wave -position end  sim:/test_alu/result
+run
+# Compile of test_picoMIPS.sv was successful.
+vsim -voptargs=+acc work.test_picoMIPS
+# End time: 11:18:29 on Apr 24,2023, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.test_picoMIPS 
+# Start time: 11:18:29 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_picoMIPS(fast)
+# Loading work.picoMIPS(fast)
+# Loading work.program_counter(fast)
+# Loading work.program_memory(fast)
+# Loading work.decoder(fast)
+# Loading work.registers(fast)
+# Loading work.alu(fast)
+add wave -position end  sim:/test_picoMIPS/clk
+add wave -position end  sim:/test_picoMIPS/reset_switch
+add wave -position end  sim:/test_picoMIPS/handshake_switch
+add wave -position end  sim:/test_picoMIPS/input_switches
+add wave -position end  sim:/test_picoMIPS/SW
+add wave -position end  sim:/test_picoMIPS/LED
+run
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_picoMIPS.pmtest.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# ** Error: unimplemented opcode x
+#    Time: 0 ns  Scope: test_picoMIPS.pmtest.D File: H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv Line: 67
+# picoMIPS monitor: time:0, program_address: x, instruction_code: xxxx, opcode: x, alu_result: xx, alu_a: xx, r_dest: 0X, rd_data: xx, alu_b: xx, r_source: 0X, rs_data: xx
+# picoMIPS monitor: time:2, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: xx, r_dest: 02, rd_data: xx, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:10, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 00, alu_a: xx, r_dest: 05, rd_data: xx, alu_b: 00, r_source: 01, rs_data: 00
+# picoMIPS monitor: time:17, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 08, alu_a: xx, r_dest: 05, rd_data: xx, alu_b: 08, r_source: 01, rs_data: 08
+# picoMIPS monitor: time:40, program_address: 2, instruction_code: 03a0, opcode: 0, alu_result: 08, alu_a: xx, r_dest: 03, rd_data: xx, alu_b: 08, r_source: 05, rs_data: 08
+# GPR at time 40: Wrote 08 to gpr[03]: xx
+# picoMIPS monitor: time:60, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 08, alu_a: xx, r_dest: 06, rd_data: xx, alu_b: 08, r_source: 01, rs_data: 08
+# GPR at time 60: Wrote 08 to gpr[06]: xx
+# picoMIPS monitor: time:77, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 10, alu_a: xx, r_dest: 06, rd_data: xx, alu_b: 10, r_source: 01, rs_data: 10
+# picoMIPS monitor: time:100, program_address: 4, instruction_code: 04c0, opcode: 0, alu_result: 10, alu_a: xx, r_dest: 04, rd_data: xx, alu_b: 10, r_source: 06, rs_data: 10
+# GPR at time 100: Wrote 10 to gpr[04]: xx
+# picoMIPS monitor: time:120, program_address: 5, instruction_code: 3b60, opcode: 7, alu_result: 06, alu_a: 08, r_dest: 03, rd_data: 08, alu_b: 60, r_source: 03, rs_data: 08
+# GPR at time 120: Wrote 06 to gpr[03]: 08
+# picoMIPS monitor: time:130, program_address: 6, instruction_code: 3c40, opcode: 7, alu_result: 08, alu_a: 10, r_dest: 04, rd_data: 10, alu_b: 40, r_source: 02, rs_data: 00
+# GPR at time 130: Wrote 08 to gpr[04]: 10
+# picoMIPS monitor: time:140, program_address: 7, instruction_code: 0b80, opcode: 1, alu_result: 0e, alu_a: 06, r_dest: 03, rd_data: 06, alu_b: 08, r_source: 04, rs_data: 08
+# GPR at time 140: Wrote 0e to gpr[03]: 06
+# picoMIPS monitor: time:150, program_address: 8, instruction_code: 2b14, opcode: 5, alu_result: 22, alu_a: 0e, r_dest: 03, rd_data: 0e, alu_b: 14, r_source: 00, rs_data: 00
+# GPR at time 150: Wrote 22 to gpr[03]: 0e
+# picoMIPS monitor: time:160, program_address: 9, instruction_code: 3dc0, opcode: 7, alu_result: fc, alu_a: 08, r_dest: 05, rd_data: 08, alu_b: c0, r_source: 06, rs_data: 10
+# GPR at time 160: Wrote fc to gpr[05]: 08
+# picoMIPS monitor: time:170, program_address: a, instruction_code: 3e60, opcode: 7, alu_result: 0c, alu_a: 10, r_dest: 06, rd_data: 10, alu_b: 60, r_source: 03, rs_data: 22
+# GPR at time 170: Wrote 0c to gpr[06]: 10
+# picoMIPS monitor: time:180, program_address: b, instruction_code: 0dc0, opcode: 1, alu_result: 08, alu_a: fc, r_dest: 05, rd_data: fc, alu_b: 0c, r_source: 06, rs_data: 0c
+# GPR at time 180: Wrote 08 to gpr[05]: fc
+# picoMIPS monitor: time:190, program_address: c, instruction_code: 2dec, opcode: 5, alu_result: f4, alu_a: 08, r_dest: 05, rd_data: 08, alu_b: ec, r_source: 07, rs_data: xx
+# GPR at time 190: Wrote f4 to gpr[05]: 08
+# picoMIPS monitor: time:200, program_address: d, instruction_code: 3260, opcode: 6, alu_result: 22, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 22, r_source: 03, rs_data: 22
+# GPR at time 200: Wrote 22 to gpr[02]: xx
+# picoMIPS monitor: time:210, program_address: e, instruction_code: 22a0, opcode: 4, alu_result: f4, alu_a: 22, r_dest: 02, rd_data: 22, alu_b: f4, r_source: 05, rs_data: f4
+# picoMIPS monitor: time:340, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: f4, r_dest: 02, rd_data: f4, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:420, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:430, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 10, alu_a: f4, r_dest: 05, rd_data: f4, alu_b: 10, r_source: 01, rs_data: 10
+# picoMIPS monitor: time:477, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: 0a, alu_a: f4, r_dest: 05, rd_data: f4, alu_b: 0a, r_source: 01, rs_data: 0a
+# picoMIPS monitor: time:500, program_address: 2, instruction_code: 03a0, opcode: 0, alu_result: 0a, alu_a: 22, r_dest: 03, rd_data: 22, alu_b: 0a, r_source: 05, rs_data: 0a
+# GPR at time 500: Wrote 0a to gpr[03]: 22
+# picoMIPS monitor: time:520, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: 0a, alu_a: 0c, r_dest: 06, rd_data: 0c, alu_b: 0a, r_source: 01, rs_data: 0a
+# GPR at time 520: Wrote 0a to gpr[06]: 0c
+# picoMIPS monitor: time:537, program_address: 3, instruction_code: 2620, opcode: 4, alu_result: f6, alu_a: 0c, r_dest: 06, rd_data: 0c, alu_b: f6, r_source: 01, rs_data: f6
+# picoMIPS monitor: time:560, program_address: 4, instruction_code: 04c0, opcode: 0, alu_result: f6, alu_a: 08, r_dest: 04, rd_data: 08, alu_b: f6, r_source: 06, rs_data: f6
+# GPR at time 560: Wrote f6 to gpr[04]: 08
+# picoMIPS monitor: time:580, program_address: 5, instruction_code: 3b60, opcode: 7, alu_result: 07, alu_a: 0a, r_dest: 03, rd_data: 0a, alu_b: 60, r_source: 03, rs_data: 0a
+# GPR at time 580: Wrote 07 to gpr[03]: 0a
+# picoMIPS monitor: time:590, program_address: 6, instruction_code: 3c40, opcode: 7, alu_result: fb, alu_a: f6, r_dest: 04, rd_data: f6, alu_b: 40, r_source: 02, rs_data: 00
+# GPR at time 590: Wrote fb to gpr[04]: f6
+# picoMIPS monitor: time:600, program_address: 7, instruction_code: 0b80, opcode: 1, alu_result: 02, alu_a: 07, r_dest: 03, rd_data: 07, alu_b: fb, r_source: 04, rs_data: fb
+# GPR at time 600: Wrote 02 to gpr[03]: 07
+# picoMIPS monitor: time:610, program_address: 8, instruction_code: 2b14, opcode: 5, alu_result: 16, alu_a: 02, r_dest: 03, rd_data: 02, alu_b: 14, r_source: 00, rs_data: 00
+# GPR at time 610: Wrote 16 to gpr[03]: 02
+# picoMIPS monitor: time:620, program_address: 9, instruction_code: 3dc0, opcode: 7, alu_result: fb, alu_a: 0a, r_dest: 05, rd_data: 0a, alu_b: c0, r_source: 06, rs_data: f6
+# GPR at time 620: Wrote fb to gpr[05]: 0a
+# picoMIPS monitor: time:630, program_address: a, instruction_code: 3e60, opcode: 7, alu_result: f8, alu_a: f6, r_dest: 06, rd_data: f6, alu_b: 60, r_source: 03, rs_data: 16
+# GPR at time 630: Wrote f8 to gpr[06]: f6
+# picoMIPS monitor: time:640, program_address: b, instruction_code: 0dc0, opcode: 1, alu_result: f3, alu_a: fb, r_dest: 05, rd_data: fb, alu_b: f8, r_source: 06, rs_data: f8
+# GPR at time 640: Wrote f3 to gpr[05]: fb
+# picoMIPS monitor: time:650, program_address: c, instruction_code: 2dec, opcode: 5, alu_result: df, alu_a: f3, r_dest: 05, rd_data: f3, alu_b: ec, r_source: 07, rs_data: xx
+# GPR at time 650: Wrote df to gpr[05]: f3
+# picoMIPS monitor: time:660, program_address: d, instruction_code: 3260, opcode: 6, alu_result: 16, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 16, r_source: 03, rs_data: 16
+# GPR at time 660: Wrote 16 to gpr[02]: xx
+# picoMIPS monitor: time:670, program_address: e, instruction_code: 22a0, opcode: 4, alu_result: df, alu_a: 16, r_dest: 02, rd_data: 16, alu_b: df, r_source: 05, rs_data: df
+# picoMIPS monitor: time:800, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: df, r_dest: 02, rd_data: df, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:880, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
+# picoMIPS monitor: time:890, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: f6, alu_a: df, r_dest: 05, rd_data: df, alu_b: f6, r_source: 01, rs_data: f6

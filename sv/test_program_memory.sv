@@ -37,10 +37,9 @@ initial begin
   
   // iterate through the program
   for(int i = 0; i < (1<<program_code_size); i++) begin
-    #4
+    #5
     address = i;
-	#1
-	$display("memory[%h] = %h, instruction_code = %h", address, memory[address], instruction_code);
+	$strobe("memory[%h] = %h, instruction_code = %h", address, memory[address], instruction_code);
   end
   
 end
