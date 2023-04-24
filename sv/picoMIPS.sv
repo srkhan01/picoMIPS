@@ -1,9 +1,9 @@
 //------------------------------------
 // File Name   : picoMIPS.sv
-// Function    : picoMIPS CPU top level encapsulating module, version 2
+// Function    : picoMIPS CPU top level encapsulating module
 // Author      : Sayedur Khan
-// Ver 2 :  PC , prog memory, regs, ALU and decoder, no RAM
-// Last revised: 21 Apr 2023
+// program_counter, program memory, registers, ALU and decoder, no RAM
+// Last revised: 24 Apr 2023
 //------------------------------------
 
 `include "alucodes.sv"
@@ -94,6 +94,7 @@ assign alu_b = (imm ? instruction_code[n-1:0] : rs_data);
 // connect CPU reset to SW9
 assign n_reset = SW[9];
 
+// wire up sections of the instruction code to their respective desinations
 assign opcode = instruction_code[instruction_size-1:instruction_size-3];
 assign r_dest = instruction_code[instruction_size-4:instruction_size-6];
 assign r_source = instruction_code[instruction_size-7:instruction_size-9];

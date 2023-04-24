@@ -1,8 +1,8 @@
 //-----------------------------------------------------
-// File Name : test_picoMIPS4test.sv
+// File Name : test_picoMIPS.sv
 // Function : picoMIPS testbench
 // Author: Sayedur Khan
-// Last revised: 20 APR 2023
+// Last revised: 24 Apr 2023
 //-----------------------------------------------------
 module test_picoMIPS;
 

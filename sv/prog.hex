@@ -1,4 +1,4 @@
-// Implementation of Affine Transformation as specified in Pseudocode from the brief
+// Implementation of affine transformation as specified in pseudocode from the brief
 // n = 8 bits, Isize = 6+n = 14 bits
 // format: 3b opcode, 3b rd, [3b rs or 8b immediate]
 // 16 lines of code designed to match the program memory size (4 bits). This leads to inherent looping of the program without branches required.

@@ -1,9 +1,8 @@
 //---------------------------------------------------------
 // File Name   : test_alu.sv
-// Function    : testbench for alu with multiplier 
+// Function    : testbench for alu with signed multiplier 
 // Author: Sayedur Khan
-// ver 1:  
-// Last revised: 21 Apr 2023
+// Last revised: 24 Apr 2023
 //---------------------------------------------------------
 
 `include "alucodes.sv"  

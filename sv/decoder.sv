@@ -3,7 +3,7 @@
 // Function    : picoMIPS instruction decoder 
 // Author: Sayedur Khan
 // ver 2:  // NOP, ADD, ADDI, SUB, SUBI, MUL, MULI, WAITHS0, WAITHS1
-// Last revised: 20 APR 2023
+// Last revised: 24 Apr 2023
 //---------------------------------------------------------
 
 `include "alucodes.sv"
@@ -48,20 +48,20 @@ begin
 			w = 1'b1; // write result to dest register
 			imm = 1'b1; // set ctrl signal for imm operand MUX
 		end
-		`COPY: w = 1'b1;
+		`COPY: w = 1'b1; // register-register copy function
 		`WLD0: 
 		begin
 			pc_inc = ~handshake_switch;
 			if(pc_inc)
 				// Switch has been pulled to correct direction (0)
-				w = 1'b1;
+				w = 1'b1; // register-register copy after switch pull
 		end
 		`WLD1: 
 		begin
 			pc_inc = handshake_switch;  
 			if(pc_inc) 
 				// Switch has been pulled to correct direction (1)
-				w = 1'b1;			
+				w = 1'b1; // register-register copy after switch pull			 
 		end  
 		default:
 			$error("unimplemented opcode %h",opcode);

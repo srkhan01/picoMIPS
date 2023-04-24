@@ -3,7 +3,7 @@
 // Function    : testbench for picoMIPS program memory 
 // Author: Sayedur Khan
 // ver 1:  
-// Last revised: 21 Apr 2023
+// Last revised: 24 Apr 2023
 //---------------------------------------------------------
 `include "global_parameters.sv"
 //---------------------------------------------------------

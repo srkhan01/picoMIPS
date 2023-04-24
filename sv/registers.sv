@@ -1,9 +1,9 @@
 //-----------------------------------------------------
 // File Name : registers.sv
-// Function : picoMIPS 32 x n registers, %0 == 0
+// Function : picoMIPS registers_size x n registers, %0 == 0, %1 == inport, outport <= %2
 // Version 1 :
 // Author: Sayedur Khan
-// Last rev. 21 Apr 2023
+// Last rev. 24 Apr 2023
 //-----------------------------------------------------
 `include "global_parameters.sv"
 module registers #(
@@ -38,8 +38,8 @@ module registers #(
   always_comb begin
     unique case(r_dest)
   	  3'b000: rd_data =  {n{1'b0}};
-      3'b001: rd_data = inport;
-	  3'b010: rd_data = outport;
+      3'b001: rd_data = inport; // gpr[1] comes in from inport (switches)
+	  3'b010: rd_data = outport; // gpr[2] directly goes to outport (LEDs)
 	  default: rd_data = gpr[r_dest];
     endcase
    
@@ -49,24 +49,9 @@ module registers #(
 	  3'b010: rs_data = outport;
 	  default: rs_data = gpr[r_source];
 	endcase
-	/*
-    if (r_dest==3'b000) // reg 0
-	  rd_data =  {n{1'b0}};
-    else if (r_dest==3'b001) // reg 1 (input port)
-	  rd_data = inport;
-    else
-	  rd_data = gpr[r_dest];
- 
-    if (r_source==3'b000)
-	  rs_data =  {n{1'b0}};
-    else if (r_source==3'b001) // reg 1 (input port)
-	  rs_data = inport;
-    else
-	  rs_data = gpr[r_source];*/
   end	
 
   // 	Register 1 is an input port
   //assign outport = gpr[2]; // 	Register 2 is an output port
 	
-
 endmodule // module registers

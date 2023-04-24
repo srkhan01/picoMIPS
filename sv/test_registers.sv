@@ -1,10 +1,8 @@
 //-----------------------------------------------------
 // File Name : test_registers.sv
-// Function : testbench for pMIPS registers_size x n registers, %0 == 0
-// Version 1 : code template for Cyclone  MLAB 
-//             and true dual port sync RAM
+// Function : testbench for pMIPS registers_size x n registers, %0 == 0, %1 == inport, outport <= %2
 // Author: Sayedur Khan
-// Last rev. 21 Apr 2023
+// Last rev. 24 Apr 2023
 //-----------------------------------------------------
 `include "global_parameters.sv"
 module test_registers;

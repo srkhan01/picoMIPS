@@ -1,9 +1,9 @@
 //-----------------------------------------------------
 // File Name   : alu.sv
 // Function    : ALU module for picoMIPS
-// Version: 1,  ALU with 4 functions
+// Version: 1,  ALU with 4 functions, no explicit branching
 // Author:  Sayedur Khan
-// Last rev. 21 Apr 2023
+// Last rev. 24 Apr 2023
 //-----------------------------------------------------
 
 `include "alucodes.sv"  
@@ -42,17 +42,19 @@ always_comb
 begin
   unique case(func)
   	`RB   : result = b;
-	`RB_ALT   : result = b;
+	`RB_ALT   : result = b; // Alternative B function to allow more than 2 alucodes for this
     `RADD  : begin
 	   result = ar; // arithmetic addition
 	 end
     /*`RSUB  : begin
 	   result = ar; // arithmetic subtraction
 	 end   */
-	`RMULT  : result = multiplyResult[14:7]; // arithmetic multiplication
+	`RMULT  : result = multiplyResult[14:7]; // signed multiplication, only keeping 8 bits as is required
 	default: result = a;
    endcase
  end //always_comb
+ 
+ // branching not required as the program counter loops back to the start on overflow
 
 endmodule //end of module ALU
 

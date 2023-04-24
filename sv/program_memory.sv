@@ -1,8 +1,8 @@
 //-----------------------------------------------------
 // File Name : prog.sv
-// Function : Program memory program_code_size x instruction_size - reads from file prog.hex
+// Function : Program memory [program_code_size x instruction_size] - reads from file prog.hex
 // Author: Sayedur Khan, 
-// Last rev. 21 Apr 2023
+// Last rev. 24 Apr 2023
 //-----------------------------------------------------
 `include "global_parameters.sv"
 module program_memory #(parameter program_code_size = `PROGRAM_CODE_SIZE, instruction_size = `INSTRUCTION_SIZE) // program_code_size - address width, instruction_size - instruction width

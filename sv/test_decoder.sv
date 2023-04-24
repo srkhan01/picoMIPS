@@ -2,8 +2,8 @@
 // File Name   : test_decoder.sv
 // Function    : testbench for picoMIPS instruction decoder 
 // Author: Sayedur Khan
-// ver 1:  //  NOP, ADD, MULT, ADDI, SUBI, MULTI, WLD0, WLD1
-// Last revised: 21 Apr 2023
+// ver 1:  //  NOP, ADD, MULT, ADDI, COPY, MULTI, WLD0, WLD1
+// Last revised: 24 Apr 2023
 //---------------------------------------------------------
 // TODO
 `include "alucodes.sv"

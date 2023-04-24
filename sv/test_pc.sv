@@ -3,7 +3,7 @@
 // Function : picoMIPS Program Counter testbench
 // functions: increment, reset and wait
 // Author: Sayedur Khan
-// Last revised: 20 APR 2023
+// Last revised: 24 Apr 2023
 //-----------------------------------------------------
 `include "global_parameters.sv"
 module test_pc;
