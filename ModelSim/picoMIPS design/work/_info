@@ -10,29 +10,29 @@ z2
 cModel Technology
 Z0 dH:/elec6234 cw/ModelSim/Program Memory
 T_opt
-!s110 1682331362
-V8ajVA8]dS40<Gz@d<S?Ji1
-04 8 4 work test_alu fast 0
-=1-48210b30f90d-644656e1-344-39fc
+!s110 1682605704
+V0c2iTZBUO[C8]5JoRoXh13
+04 13 4 work test_picoMIPS fast 0
+=1-0050569d40c7-644a8687-1b6-8338
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.1;71
-R0
 T_opt1
-!s110 1682331510
-V<L13JfN2VL6bg?lEB1cEb2
-04 13 4 work test_picoMIPS fast 0
-=1-48210b30f90d-64465775-209-3a38
+!s110 1682605385
+VP0;TF`lz8eF`V9DZjX6X:1
+04 12 4 work test_decoder fast 0
+=1-0050569d40c7-644a8548-220-3734
 R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
-!s110 1682329126
-VeSmA`FfOSaIL;_]^Ij;7K3
-04 14 4 work test_registers fast 0
-=1-48210b30f90d-64464e25-288-2d2c
+!s110 1682605504
+V2NkZJ0AGR2C?JSo1_Rm=H1
+04 7 4 work test_pc fast 0
+=1-0050569d40c7-644a85bf-19a-80e4
 R1
 R2
 n@_opt2
@@ -40,32 +40,32 @@ R3
 R0
 valu
 Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1682327495
+!s110 1682604772
 !i10b 1
-!s100 03Q@l3ZHgE1]6:D<@k7@93
+!s100 7=Eoh`l73;T=mXb6zGFAf3
 Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Ik4Je7QWeUASein;VdLTa62
+IaWYJ`K25lRE2:6o8U_6^62
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z7 dH:/elec6234 cw/repo/picoMIPS/ModelSim/picoMIPS design
-w1682276987
+Z7 d//filestore.soton.ac.uk/users/srk1g19/mydocuments/elec6234 cw/repo/picoMIPS/ModelSim/picoMIPS design
+w1682336336
 8H:/elec6234 cw/repo/picoMIPS/sv/alu.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/alu.sv
-!i122 28
-L0 12 46
+!i122 52
+L0 12 48
 Z8 OL;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1682327495.000000
+!s108 1682604771.000000
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/alu.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/alu.sv|
 !i113 0
-Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vcounter
 R4
-Z11 !s110 1682327496
+Z10 !s110 1682604773
 !i10b 1
 !s100 ?_0Efm<b`=O<MG?b_`i_M1
 R5
@@ -76,21 +76,21 @@ R7
 w1677496109
 8H:/elec6234 cw/repo/picoMIPS/sv/counter.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/counter.sv
-!i122 29
+!i122 53
 L0 2 11
 R8
 r1
 !s85 0
 31
-R9
+!s108 1682604772.000000
 !s107 H:/elec6234 cw/repo/picoMIPS/sv/counter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/counter.sv|
 !i113 0
-R10
+R9
 R2
 vdecoder
 R4
-R11
+R10
 !i10b 1
 !s100 iZF07b0idOQBdWBbXHXb[3
 R5
@@ -98,50 +98,50 @@ I<@]O=L6[V>=X9<Di;G>ll0
 R6
 S1
 R7
-w1682276888
+w1682335509
 8H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/decoder.sv
-!i122 30
+!i122 54
 L0 13 62
 R8
 r1
 !s85 0
 31
-Z12 !s108 1682327496.000000
+Z11 !s108 1682604773.000000
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\opcodes.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/decoder.sv|
 !i113 0
-R10
+R9
 R2
 vpicoMIPS
 R4
-Z13 !s110 1682327497
+Z12 !s110 1682604774
 !i10b 1
-!s100 R=lc@fRZ^z0<BL?H^97`53
+!s100 SD9?l1JQihW8jkY75RH8o2
 R5
-I=BRCTjR]lb;R_5V?1QgZU2
+IH^QLZiC0oflA`YWOWl6?a3
 R6
 S1
 R7
-w1682199785
+w1682335692
 8H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv
-!i122 31
-L0 11 91
+!i122 55
+L0 11 92
 R8
 r1
 !s85 0
 31
-R12
+R11
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS.sv|
 !i113 0
-R10
+R9
 R2
 npico@m@i@p@s
 vpicoMIPS4test
 R4
-R13
+R12
 !i10b 1
 !s100 SiHO_gz^^E=^`2H86U;XV1
 R5
@@ -152,47 +152,47 @@ R7
 w1682179078
 8H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv
-!i122 32
+!i122 56
 L0 2 16
 R8
 r1
 !s85 0
 31
-Z14 !s108 1682327497.000000
+Z13 !s108 1682604774.000000
 !s107 H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/picoMIPS4test.sv|
 !i113 0
-R10
+R9
 R2
 npico@m@i@p@s4test
 vprogram_counter
 R4
-R13
+R12
 !i10b 1
-!s100 L2:c4F>g]_EP<M@MQ@z5@1
+!s100 zTGcboNVOVO>JTE`Q331P3
 R5
-I8db=5EHN7BzE_cSSZ;lW^2
+Izl963bkzzzSS=DcLS4jzz1
 R6
 S1
 R7
-w1682244711
+w1682335913
 8H:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv
-!i122 33
-L0 9 28
+!i122 57
+L0 9 24
 R8
 r1
 !s85 0
 31
-R14
+R13
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/program_counter.sv|
 !i113 0
-R10
+R9
 R2
 vprogram_memory
 R4
-Z15 !s110 1682327498
+R12
 !i10b 1
 !s100 4Q@`lOMXzNBBN?0?:cR>L1
 R5
@@ -200,74 +200,74 @@ I94WWICK54jJF<UMb0GLOL0
 R6
 S1
 R7
-w1682243162
+w1682335956
 8H:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv
-!i122 34
+!i122 58
 L0 8 16
 R8
 r1
 !s85 0
 31
-R14
+R13
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/program_memory.sv|
 !i113 0
-R10
+R9
 R2
 vregisters
 R4
-R15
+Z14 !s110 1682604775
 !i10b 1
-!s100 bbMzP3k;DA`6LX;O8lI9b1
+!s100 `aGO]X`[bSBk:gHY_o?Ml1
 R5
-I]V69b]B:I^L5?OJhnfak92
+Ijh]mlbY^6BiG?eQ^DZF]m1
 R6
 S1
 R7
-w1682244870
+Z15 w1682604662
 8H:/elec6234 cw/repo/picoMIPS/sv/registers.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/registers.sv
-!i122 35
-L0 9 64
+!i122 59
+L0 9 49
 R8
 r1
 !s85 0
 31
-Z16 !s108 1682327498.000000
+Z16 !s108 1682604775.000000
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/registers.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/registers.sv|
 !i113 0
-R10
+R9
 R2
 vtest_alu
 R4
-!s110 1682331351
+R14
 !i10b 1
-!s100 0Tm<RZedYTfOVU31`7_a]0
+!s100 P7Bo0`cgRd6`DggHPeA6K3
 R5
-IP<4i]54MZPP;UX]oK`JB`3
+IE0P:g7Ha<FPcYbg;:^8XH0
 R6
 S1
 R7
-w1682331338
+w1682336247
 8H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv
-!i122 50
-L0 12 90
+!i122 60
+L0 11 90
 R8
 r1
 !s85 0
 31
-!s108 1682331351.000000
+R16
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_alu.sv|
 !i113 0
-R10
+R9
 R2
 vtest_decoder
 R4
-!s110 1682327499
+R14
 !i10b 1
 !s100 K1U7dU27fgDf]mCTJlVge2
 R5
@@ -275,10 +275,10 @@ IG4bP`g5QV=jUB91g5ElSW2
 R6
 S1
 R7
-w1682276700
+w1682336199
 8H:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv
-!i122 37
+!i122 61
 L0 13 40
 R8
 r1
@@ -288,36 +288,36 @@ R16
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:\elec6234 cw\repo\picoMIPS\sv\opcodes.sv|H:\elec6234 cw\repo\picoMIPS\sv\alucodes.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_decoder.sv|
 !i113 0
-R10
+R9
 R2
 vtest_pc
 R4
-!s110 1682328736
+!s110 1682605160
 !i10b 1
-!s100 8:]Q@lKc]c>oPbh3ZcC>N1
+!s100 z]>0W?QPc93j79:^GeSRe1
 R5
-IKVmH[gVY;z5NL2Rg8beZa2
+IQ>G]c=0I46_MARZF_Ozh`3
 R6
 S1
 R7
-w1682328729
+w1682605134
 8H:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv
-!i122 44
+!i122 66
 L0 9 39
 R8
 r1
 !s85 0
 31
-!s108 1682328736.000000
+!s108 1682605160.000000
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_pc.sv|
 !i113 0
-R10
+R9
 R2
 vtest_picoMIPS
 R4
-!s110 1682331504
+Z17 !s110 1682604776
 !i10b 1
 !s100 5FWG0_U>bPiKJWM?2Tl_j0
 R5
@@ -325,25 +325,25 @@ IjG=9=dIYGhjAOc8mVE:4[3
 R6
 S1
 R7
-w1682331491
+w1682336369
 8H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv
-!i122 51
+!i122 63
 L0 7 83
 R8
 r1
 !s85 0
 31
-!s108 1682331503.000000
+Z18 !s108 1682604776.000000
 !s107 H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_picoMIPS.sv|
 !i113 0
-R10
+R9
 R2
 ntest_pico@m@i@p@s
 vtest_program_memory
 R4
-!s110 1682330951
+R17
 !i10b 1
 !s100 KJIA5^U>SV_2I@=AVaz8V2
 R5
@@ -351,43 +351,43 @@ I6Z80ON;_IcfUg638@f@l<1
 R6
 S1
 R7
-w1682328897
+w1682336155
 8H:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv
-!i122 48
+!i122 64
 L0 10 37
 R8
 r1
 !s85 0
 31
-!s108 1682330951.000000
+R18
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_program_memory.sv|
 !i113 0
-R10
+R9
 R2
 vtest_registers
 R4
-!s110 1682327500
+!s110 1682604777
 !i10b 1
-!s100 LN[O`2BKUm>:V[c::oz:T3
+!s100 MT9Mh;_S]ajJ3ihA:6_S^1
 R5
-I2CPn3GHOInK;fm:NL6nF11
+I[CU4_X7b<izUDjhhHAO2_0
 R6
 S1
 R7
-w1682201078
+R15
 8H:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv
 FH:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv
-!i122 41
-L0 10 66
+!i122 65
+L0 8 66
 R8
 r1
 !s85 0
 31
-!s108 1682327500.000000
+R18
 !s107 H:\elec6234 cw\repo\picoMIPS\sv\global_parameters.sv|H:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/elec6234 cw/repo/picoMIPS/sv/test_registers.sv|
 !i113 0
-R10
+R9
 R2

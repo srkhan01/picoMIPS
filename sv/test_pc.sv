@@ -37,7 +37,7 @@ begin
 
   #10;
   pc_inc = 1;
-  #390;
+  #240;
   n_reset = 0;
   #10;
   n_reset = 1;

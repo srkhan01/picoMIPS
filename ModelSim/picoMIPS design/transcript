@@ -478,3 +478,5 @@ run
 # picoMIPS monitor: time:800, program_address: f, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: df, r_dest: 02, rd_data: df, alu_b: 00, r_source: 00, rs_data: 00
 # picoMIPS monitor: time:880, program_address: 0, instruction_code: 0200, opcode: 0, alu_result: 00, alu_a: 00, r_dest: 02, rd_data: 00, alu_b: 00, r_source: 00, rs_data: 00
 # picoMIPS monitor: time:890, program_address: 1, instruction_code: 2520, opcode: 4, alu_result: f6, alu_a: df, r_dest: 05, rd_data: df, alu_b: f6, r_source: 01, rs_data: f6
+# End time: 12:59:05 on Apr 24,2023, Elapsed time: 1:40:36
+# Errors: 2, Warnings: 1
