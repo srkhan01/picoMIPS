@@ -1,6 +1,6 @@
 //-----------------------------------------------------
 // File Name : test_registers.sv
-// Function : testbench for pMIPS registers_size x n registers, %0 == 0, %1 == inport, outport <= %2
+// Function : testbench for pMIPS (1<<registers_size)-1 x n registers, %0 == 0, %1 == inport, outport <= %2
 // Author: Sayedur Khan
 // Last rev. 24 Apr 2023
 //-----------------------------------------------------

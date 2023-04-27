@@ -1,6 +1,6 @@
 //-----------------------------------------------------
 // File Name : registers.sv
-// Function : picoMIPS registers_size x n registers, %0 == 0, %1 == inport, outport <= %2
+// Function : picoMIPS (1<<registers_size)-1 x n registers, %0 == 0, %1 == inport, outport <= %2
 // Version 1 :
 // Author: Sayedur Khan
 // Last rev. 24 Apr 2023
@@ -20,7 +20,7 @@ module registers #(
 
   // Declare n-bit registers 
 
-  logic [n-1:0] gpr [registers_size-1:0];
+  logic [n-1:0] gpr [(1<<registers_size)-1:0];
 
   // write process, dest reg is r_dest
   always_ff @ (posedge clk) begin
